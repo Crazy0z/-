@@ -1,2 +1,2263 @@
--- This script was generated using the MoonVeil Obfuscator v1.4.5 [https://moonveil.cc]
-local E,p,w_,Fc,xb,gb=pairs,getmetatable,type,bit32.bxor local ea,Rb,rc,cb,lb,Kb,R,Aa,H,I,l_,Ga,L,ub,k,Za,ec,ba,Bb,ga,e_;Ga={};L=(getfenv());I,e_,ba=(string.char),(string.byte),(bit32 .bxor);lb=function(Wa,z)local xc,Z,Gb,Hb;xc={};Gb,Hb={},function(Bc,Xb,Gc)Gb[Gc]=Fc(Bc,2448)-Fc(Xb,6548)return Gb[Gc]end;Z=Gb[-14506]or Hb(11214,14399,-14506)while Z~=3381 do if Z>=34586 then if Z>44451 then return xc[1]elseif Z<=34586 then xc[2]=xc[2]+xc[3];xc[4]=xc[2]if xc[2]~=xc[2]then Z=65180 else Z=25401 end else xc[1],Z=xc[1]..I(ba(e_(Wa,(xc[4]-160)+1),e_(z,(xc[4]-160)%#z+1))),Gb[16825]or Hb(59887,16625,16825)end elseif Z>25401 then xc[4]=xc[2]if xc[5]~=xc[5]then Z=Gb[16960]or Hb(82641,21809,16960)else Z=Gb[-8126]or Hb(47259,21574,-8126)end elseif Z<=179 then xc[1]='';xc[5],Z,xc[3],xc[2]=(#Wa-1)+160,Gb[-16464]or Hb(58919,28327,-16464),1,160 else if(xc[3]>=0 and xc[2]>xc[5])or((xc[3]<0 or xc[3]~=xc[3])and xc[2]<xc[5])then Z=Gb[-19245]or Hb(123790,61974,-19245)else Z=44451 end end end end;cb=(select);k=(function(...)return{[1]={...},[2]=cb('#',...)}end);R=((function()local function F(ka,fa_,Q)if fa_>Q then return end return ka[fa_],F(ka,fa_+1,Q)end return F end)());l_,ea=(string.gsub),(string.char);Kb=(function(ja)ja=l_(ja,'[^ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=]','')return(ja:gsub('.',function(Eb)if(Eb=='=')then return''end local S,vc='',(('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'):find(Eb)-1)for hb=6,1,-1 do S=S..(vc%2^hb-vc%2^(hb-1)>0 and'1'or'0')end return S end):gsub('%d%d%d?%d?%d?%d?%d?%d?',function(Lb)if(#Lb~=8)then return''end local pc=0 for Y=1,8 do pc=pc+(Lb:sub(Y,Y)=='1'and 2^(8-Y)or 0)end return ea(pc)end))end);Rb,Bb,ub,ga,rc,H,Aa,ec=L[lb('\216\201\193\194\211\212','\171\189\179')][lb('\200A\173\220L\182','\189/\221')],L[lb('\156\164\143\134\190\154','\239\208\253')][lb('\190\184\175','\205')],L[lb('1\15\199+\21\210','B{\181')][lb('WsAo','5\n')],L[lb('\195\240\213\170\147','\161\153')][lb('\23\241\241\18\228\237','{\130\153')],L[lb('\220\213\202\143\140','\190\188')][lb('\184\3\181\163\22\169','\202p\221')],L[lb('\159\n\137P\207','\253c')][lb('\240I\252L','\146(')],L[lb('\rr\27\127\28','y\19')][lb('\204\146O\204\156U','\175\253!')],{};Za=(function(Fb)local jc=ec[Fb]if jc then return jc end local gc,pa,Va,qa,ib=ga(1,11),ga(1,5),1,{},''while Va<=#Fb do local eb=ub(Fb,Va);Va=Va+1 for Ha=232,(8)+231 do local Ya=nil if not(H(eb,1)~=0)then if not(Va+1<=#Fb)then else local wb=Rb(lb('\206\185\194','\240'),Fb,Va);Va=Va+2 local Sa,ca=#ib-rc(wb,5),H(wb,(pa-1))+3;Ya=Bb(ib,Sa,Sa+ca-1)end else if Va<=#Fb then Ya=Bb(Fb,Va,Va);Va=Va+1 end end eb=rc(eb,1)if Ya then qa[#qa+1]=Ya;ib=Bb(ib..Ya,-gc)end end end local X=Aa(qa);ec[Fb]=X return X end)local n_,_c,tc,P,Ca,kb,j,q,Ta,B,Da,u_,sb,J,U,Yb,Vb,Ia,Na,Mb,_a,cc,M,pb,bc,Wb,Dc,ob,Qb,lc=L[lb('cGg[','\23>')],L[lb('\228\237\245\226\248','\148\142')],L[lb(']jJwJ','8\24')],L[lb('3\128\174\168*\141\165\175','G\239\192\221')],L[lb('\\h\200Xi\207','=\27\187')],L[lb('\240\192(\230\198\48','\131\165D')],L[lb('y\207\180\185\200\147k\222\161\182\193\130','\n\170\192\212\173\231')],L[lb('\230\18\249\252\b\236','\149f\139')][lb('\130B\174\137L\168','\228-\220')],L[lb('\25\25D\3\3Q','jm6')][lb('\170Kc\190Fx','\223%\19')],L[lb('W\208\177M\202\164','$\164\195')][lb('\19\21\2','\96')],L[lb('\6\228\22\28\254\3','u\144d')][lb('\191W\169K','\221.')],L[lb('i\151\55s\141\"','\26\227E')][lb('\5y\ac','f\17')],L[lb('\165\153\179\148\180','\209\248')][lb('\16\21\v\31','}z')],L[lb('\211\130\197\143\194','\167\227')][lb('\153\48\138:','\233Q')],L[lb('B\179T\190S','6\210')][lb('\135\t\153\133\15\153','\228{\252')],L[lb('\204\49\218<\221','\184P')][lb('\128\184\232\140\164\239','\233\214\155')],L[lb('-\175;\162<','Y\206')][lb('$\204\180$\194\174','G\163\218')],L[lb('\212\208\255r\194\203\228s\210','\183\191\141\29')][lb('\1\174\160\3\168\160','b\220\197')],L[lb("4\'\219\248\"<\192\249\50",'WH\169\151')][lb('Q\96MeL','(\t')],L[lb(')\236:e?\247!d/','J\131H\n')][lb('\5_\216\2W\206','w:\171')],L[lb('M\3\158\215[\24\133\214K','.l\236\184')][lb('Z\136V\151\\','9\228')],L[lb('\187\164l\186\164v\170','\220\193\24')],L[lb('\170\215\188\141\250','\200\190')][lb('\165\168\181','\199')],L[lb('\148\53\130o\196','\246\\')][lb('\239\231\226\237','\141\159')],L[lb('%\140\51\214u','G\229')][lb('\b\26\4\31','j{')],L[lb('\222\54\200l\142','\188_')][lb('%\171\"\172\51','G\223')],L[lb(' O6\21p','B&')][lb('2\182\163)\163\191','@\197\203')],L[lb('\169\173\191\247\249','\203\196')][lb('K\25\144N\f\140',"\'j\248")],L[lb('\141B\155\24\221','\239+')][lb('\150@@\129YW\135','\243\56\52')],{[25897]={{8,4,true},{3,0,false},{4,5,false},{1,5,false},{4,5,false},{4,3,true},{10,3,false},{0,5,false},{8,3,false},{8,10,false},{4,1,true},{8,5,false},{8,10,false},{3,7,true},{1,4,false},{8,5,false},{3,7,true},{10,4,false},{8,5,false},{8,8,false},{8,8,true},{8,5,true},{4,9,false},{3,3,true},{8,5,false},{8,0,true},{4,8,true},{0,8,false},{4,5,false},{10,10,false},{10,3,true},{4,0,false},{4,1,true},{1,9,false},{8,5,true},{10,5,false},{4,10,true},{1,0,true},{4,3,false},{1,1,true},{4,1,true},{1,10,false},{0,4,false},{4,5,false},{4,5,true},{10,5,true},{4,5,false},{4,1,false},{8,5,false},{3,7,true},{3,8,true},{4,5,false},{4,5,false},{8,5,false},{10,5,true},{8,7,false},{4,7,false},{10,5,true},{0,10,true},{8,5,true},{8,5,false},{10,10,false},{4,7,true},{8,5,false},{10,10,true},{1,5,false},{4,9,false},{4,5,false},{1,10,false},{0,7,true},{0,8,false},{4,1,true},{8,7,true},{4,1,true},{1,10,false},{0,9,false},{10,1,true},{8,5,false},{10,7,false},{8,4,false},{1,2,false},{4,5,false},{1,7,true},{4,5,false},{3,1,false},{4,4,false},{4,9,true},{4,5,false},{8,8,true},{8,4,true},{4,3,false},{8,3,true},{0,5,false},{4,5,false},{4,5,false},{4,9,false},{4,5,false},{4,5,false},{0,1,false},{0,9,true},{10,4,true},{4,6,false},{8,3,false},{4,1,true},{10,5,false},{8,0,true},{0,8,false},{0,8,true},{1,1,true},{8,4,true},{8,5,false},{0,3,false},{10,7,false},{4,5,false},{3,3,true},{4,5,false},{1,7,true},{4,5,false},{8,0,true},{4,8,true},{10,9,true},{3,3,true},{3,3,false},{10,8,false},{0,5,true},{0,1,true},{4,6,false},{4,5,false},{4,5,false},{4,3,false},{4,5,false},{8,5,true},{4,10,false},{8,5,false},{0,9,true},{4,3,false},{0,8,true},{8,3,true},{10,3,false},{0,9,true},{3,0,true},{1,10,true},{4,7,false},{3,4,false},{1,0,false},{0,10,true},{3,4,false},{10,3,true},{4,5,false},{4,9,false},{3,5,true},{3,8,true},{10,5,false},{4,9,true},{1,1,true},{1,5,true},{4,5,false},{10,9,true},{0,9,true},{10,1,false},{10,7,true},{8,4,true},{3,3,false},{3,1,false},{4,7,false},{3,3,false},{8,10,false},{8,1,false},{10,5,false},{8,5,false},{10,0,false},{4,5,true},{0,7,false},{4,5,false},{3,4,false},{4,5,false},{0,9,false},{4,1,true},{10,3,false},{4,4,false},{4,1,true},{0,8,true},{4,0,true},{4,7,false},{8,1,false},{8,4,true},{4,8,false},{8,0,true},{8,5,false},{4,8,true},{10,4,true},{8,5,true},{4,9,false},{4,5,false},{3,10,false},{4,5,false},{0,10,true},{4,5,true},{0,10,true},{10,9,false},{4,5,false},{3,9,false},{0,0,true},{1,5,true},{4,10,false},{0,3,true},{3,10,false},{4,5,false},{10,0,true},{10,4,false},{4,5,true},{4,0,true},{0,5,true},{4,5,false},{3,1,true},{10,0,false},{4,5,false},{8,3,false},{3,9,false},{3,9,false},{8,5,true},{4,0,true},{10,0,true},{0,3,false},{0,3,true},{1,5,false},{4,5,false},{8,8,true},{4,5,false},{8,8,true},{4,1,true},{8,10,true},{4,1,false},{4,9,false},{4,6,false},{0,10,true},{8,10,false},{8,4,false},{8,5,true},{0,3,false},{0,1,false},{0,3,false},{10,7,false},{10,1,false},{10,8,true},{0,0,true},{4,5,false},{0,4,true},{10,9,true},{4,9,true},{0,0,false},{3,5,false},{4,1,true},{10,5,false},{3,4,false},{10,4,false}},[13238]={},[60700]={}}local Ec=(function(mc)local O=lc[60700][mc]if(O)then return O end local mb=1 local function Ab()local Ka,Sb,fc,yc,Ob,v,fb,aa,za,b_,qb,y,ia,o_,Ea,A,ua,zb,Xa,Ra,da,f_,oc,C,Ub,Ac,dc,wc,oa,nc,Db,G;oc,Ka=function(N,_b,Pa)Ka[Pa]=Fc(_b,47931)-Fc(N,18073)return Ka[Pa]end,{};za=Ka[-3437]or oc(50392,19996,-3437)while za~=46445 do if za>=40357 then if za<53319 then if za>=47403 then if za>=50914 then if za<52060 then if za>51304 then za,Db=Ka[-28267]or oc(38032,72043,-28267),nil elseif za>50989 then qb,G,za,fc=251,(Ea)+250,Ka[3535]or oc(31233,18401,3535),1 elseif za<=50914 then A=Ac;G=M(G,ob(bc(A,127),(Sb-30)*7))if not Wb(A,128)then za=Ka[-32116]or oc(11839,130255,-32116)continue end za=Ka[-4830]or oc(27346,102973,-4830)else v[50150]=bc(Dc(nc,8),255);v[58856]=bc(Dc(nc,16),255);v[2736],za=bc(Dc(nc,24),255),Ka[13735]or oc(53459,2253,13735)end elseif za<=52701 then if za>=52280 then if za>52280 then v,Ra=bc(Dc(Ac,10),1023),bc(Dc(Ac,0),1023);C[56297]=Db[v+1];za,C[35099]=Ka[3343]or oc(28370,109105,3343),Db[Ra+1]else fb,za=pb(v,-1035825379),31733 continue end else A,za=k(Ra),Ka[-13509]or oc(43365,105313,-13509)continue end elseif za<=52963 then Xa,za=pb(Ea,-1035825379),26157 continue else Db=Db+G;fc=Db if Db~=Db then za=Ka[17481]or oc(51797,31325,17481)else za=44392 end end elseif za<=50008 then if za>=49099 then if za>=49218 then if za<=49218 then nc=qb if G~=G then za=64407 else za=26488 end else fc[(Ac-163)],za=Ab(),Ka[27940]or oc(895,104408,27940)end else A=Ta(lb('\19','Q'),mc,mb);za,mb=33631,mb+1 end elseif za<=47403 then G=qb;fc=U(G);C,za,Sb,nc=(G)+163,Ka[-23099]or oc(47526,89177,-23099),1,164 else yc,Xa,za=Ub,nil,Ka[22521]or oc(5953,24183,22521)end elseif za<50730 then if(y>=0 and ia>wc)or((y<0 or y~=y)and ia<wc)then za=Ka[29020]or oc(50350,125473,29020)else za=Ka[7319]or oc(30420,17367,7319)end elseif za>50730 then za,fb=Ka[-13127]or oc(32259,110806,-13127),nil else oa=y;Db=U(oa);G,fc,qb,za=(oa)+173,1,174,Ka[8216]or oc(37905,95055,8216)end elseif za>=43301 then if za>=45311 then if za>=47140 then if za>=47218 then if za<=47218 then za,fc=Ka[32000]or oc(12530,105553,32000),pb(nc,-488886284)continue else if(Db>=0 and y>oa)or((Db<0 or Db~=Db)and y<oa)then za=Ka[24959]or oc(15841,16645,24959)else za=Ka[-2271]or oc(39780,114393,-2271)end end else return{[12168]=ia,[33197]=b_,[40259]='',[63586]=yc,[58903]=fc,[4502]=dc}end elseif za>45311 then v[50150]=bc(Dc(nc,8),255);Ra=bc(Dc(nc,16),65535);v[34689]=Ra;zb=nil;zb=if Ra<32768 then Ra else Ra-65536;v[10432],za=zb,Ka[11352]or oc(7322,52372,11352)else nc=fc;C=bc(nc,255);Sb=lc[25897][C+1];Ac,A,fb=Sb[1],Sb[2],Sb[3];v={[10432]=0,[58856]=0,[56297]=0,[50150]=0,[59874]=C,[23498]=0,[34689]=0,[2736]=0,[20608]=0,[36581]=nil,[44480]=0,[21592]=0,[28216]=0,[17508]=A,[35099]=0};Yb(ia,v)if(Ac==8)then za=Ka[27416]or oc(13786,106143,27416)continue else za=Ka[31106]or oc(30454,52188,31106)continue end za=Ka[31124]or oc(56694,672,31124)end elseif za>=44483 then if za<=44483 then G=0;za,fc,C,nc=Ka[-12363]or oc(50675,110287,-12363),30,1,34 else C[23498],za=Db[C[20608]+1],Ka[5615]or oc(36942,66733,5615)end elseif za<=43301 then za,wc=Ka[-3135]or oc(32523,102052,-3135),G else if(G>=0 and Db>qb)or((G<0 or G~=G)and Db<qb)then za=Ka[-7057]or oc(24832,59144,-7057)else za=Ka[-31893]or oc(56972,81518,-31893)end end elseif za>41551 then if za>=41694 then if za>41694 then fb=0;zb,za,v,Ra=1,Ka[-31232]or oc(29728,234,-31232),122,126 else za,C[23498]=Ka[-8490]or oc(22554,113785,-8490),Db[C[50150]+1]end else za,Ac=Ka[96]or oc(56236,80493,96),R(A[1],1,A[2])end elseif za>=41042 then if za<41368 then za,ua=Ka[20631]or oc(39165,95065,20631),pb(dc,80)continue elseif za>41368 then A,za=k(nil),Ka[-28694]or oc(25486,20627,-28694)else za,Ob=Ka[20713]or oc(29414,34352,20713),pb(b_,80)continue end elseif za<=40357 then if(Sb==8)then za=Ka[26542]or oc(49268,23856,26542)continue else za=Ka[27731]or oc(15228,18573,27731)continue end za=Ka[-16128]or oc(54938,115705,-16128)else qb=Db;Ea=M(Ea,ob(bc(qb,127),(oa-214)*7))if not Wb(qb,128)then za=Ka[12084]or oc(62480,757,12084)continue end za=Ka[26692]or oc(57301,112229,26692)end elseif za>59902 then if za<=63708 then if za>61410 then if za>=62956 then if za>62956 then C,za=nil,56660 else nc=qb if G~=G then za=51304 else za=36739 end end elseif za<=61942 then za,C=21798,pb(Sb,80)continue else Ra,za=zb,Ka[11167]or oc(16627,27389,11167)continue end elseif za>=60830 then if za<=60945 then if za<=60830 then za,Ra=24195,nil else if(Sb>=0 and nc>C)or((Sb<0 or Sb~=Sb)and nc<C)then za=Ka[18242]or oc(52548,130874,18242)else za=Ka[-12919]or oc(4124,107238,-12919)end end else zb=Ta(lb('\129','\226')..v,mc,mb);za,mb=Ka[-32489]or oc(60766,74969,-32489),mb+v end elseif za>60269 then za,nc=Ka[8374]or oc(33475,24353,8374),nil else za,wc=Ka[-15148]or oc(46625,88062,-15148),false end elseif za>=64581 then if za<64699 then if za<=64581 then da=aa;fb=M(fb,ob(bc(da,127),(o_-122)*7))if(not Wb(da,128))then za=Ka[-27935]or oc(46630,94714,-27935)continue else za=Ka[-31941]or oc(22358,36036,-31941)continue end za=Ka[-17047]or oc(46458,106792,-17047)else dc=Ta(lb('\170','\232'),mc,mb);mb,za=mb+1,Ka[-7386]or oc(44417,77905,-7386)end elseif za>64699 then C[23498]=Db[Qb(C[20608],0,24)+1];za,C[44480]=Ka[19853]or oc(4607,129822,19853),Qb(C[20608],31,1)==1 else fc=fc+C;Sb=fc if fc~=fc then za=Ka[-24406]or oc(49173,108772,-24406)else za=Ka[18552]or oc(27199,14687,18552)end end elseif za<64438 then qb,za=nil,44483 elseif za<=64438 then aa,za=pb(da,80),64581 continue else y=y+Db;qb=y if y~=y then za=32454 else za=47327 end end elseif za<=57443 then if za<=55571 then if za>54516 then if za<=55255 then fc,za=nil,Ka[17075]or oc(53610,31786,17075)else Ra,zb=bc(Dc(nc,8),16777215),nil;zb=if Ra<8388608 then Ra else Ra-16777216;v[21592],za=zb,Ka[9725]or oc(35291,22485,9725)end elseif za<54099 then if za>53319 then za=Ka[17353]or oc(52961,1577,17353)continue else qb=Ta(lb('\158','\220'),mc,mb);za,mb=Ka[10822]or oc(35889,21658,10822),mb+1 end elseif za<=54099 then v=0;za,zb,Ra,o_=Ka[8229]or oc(3889,63016,8229),173,169,1 else if(Sb==3)then za=Ka[32489]or oc(51636,9,32489)continue else za=Ka[749]or oc(16717,53531,749)continue end za=Ka[-12019]or oc(7281,129180,-12019)end elseif za>=57166 then if za>57166 then za,Ub=47805,pb(yc,80)continue else za=Ka[11826]or oc(60357,98708,11826)continue end elseif za>55810 then Sb=Ta(lb('\179','\241'),mc,mb);za,mb=Ka[1821]or oc(6623,125447,1821),mb+1 else za=Ka[-30436]or oc(20620,8778,-30436)continue end elseif za<=59427 then if za>=58541 then if za>59133 then Ac=nc if C~=C then za=Ka[-3759]or oc(39790,77088,-3759)else za=60945 end elseif za>58541 then nc=nc+Sb;Ac=nc if nc~=nc then za=47140 else za=60945 end else Ac=C[20608];A,fb=Dc(Ac,30),bc(Dc(Ac,20),1023);C[23498]=Db[fb+1];C[28216]=A if A==2 then za=Ka[4217]or oc(7935,29138,4217)continue elseif(A==3)then za=Ka[-19299]or oc(6104,107557,-19299)continue else za=Ka[19252]or oc(32062,106333,19252)continue end za=Ka[-27880]or oc(43506,90897,-27880)end elseif za<=58320 then fb=Ta(lb('\157\197','\161'),mc,mb);za,mb=Ka[-26254]or oc(23185,10148,-26254),mb+8 else za,Db[(nc-173)]=Ka[22384]or oc(39629,126466,22384),Ac end elseif za>59842 then za,dc,Ub=Ka[30314]or oc(42459,107002,30314),ua,nil elseif za<=59583 then qb=qb+fc;nc=qb if qb~=qb then za=Ka[13235]or oc(845,129616,13235)else za=Ka[9077]or oc(20288,51818,9077)end else za,G=55255,nil end elseif za<23587 then if za<9776 then if za>3825 then if za>=7596 then if za>=9336 then if za>9336 then Db,za=pb(qb,80),40453 continue else oa=0;G,qb,za,Db=1,142,Ka[-24945]or oc(9096,3691,-24945),138 end elseif za<=7596 then if fb then za=Ka[-17584]or oc(2121,100181,-17584)continue end za=Ka[-24502]or oc(64386,28826,-24502)else C=Ta(lb('7','u'),mc,mb);mb,za=mb+1,4349 end elseif za<5004 then if za<=4349 then nc,za=pb(C,80),32913 continue else da=Ta(lb('Z','\24'),mc,mb);mb,za=mb+1,64438 end elseif za<=5004 then Ra=Ra+o_;aa=Ra if Ra~=Ra then za=Ka[-24638]or oc(15958,130620,-24638)else za=31884 end else f_=Ta(lb('\147','\209'),mc,mb);mb,za=mb+1,30950 end elseif za<1863 then if za>1570 then za=Ka[12756]or oc(22889,21992,12756)continue elseif za<=875 then if za<=136 then za,A=41897,k(nil)else aa=Ra if zb~=zb then za=Ka[-22195]or oc(58298,117344,-22195)else za=Ka[-3396]or oc(11625,21319,-3396)end end else f_=da;v=M(v,ob(bc(f_,127),(aa-169)*7))if not Wb(f_,128)then za=Ka[32151]or oc(49259,112800,32151)continue end za=Ka[-2864]or oc(9707,52677,-2864)end elseif za>=3116 then if za<3718 then za,C[23498]=Ka[854]or oc(47815,89638,854),Db[C[10432]+1]elseif za<=3718 then G,za=fb,Ka[11152]or oc(47224,70461,11152)continue else C=ia[(nc-250)];Sb=C[17508]if Sb==4 then za=Ka[-5767]or oc(41962,88084,-5767)continue elseif(Sb==7)then za=Ka[-15794]or oc(55042,118131,-15794)continue else za=Ka[19596]or oc(1760,8420,19596)continue end za=Ka[8191]or oc(48979,88498,8191)end elseif za>1863 then b_,za,ua=Ob,64602,nil else b_=Ta(lb('\151','\213'),mc,mb);za,mb=41368,mb+1 end elseif za>=15113 then if za<18751 then if za>17460 then Ra,za=nil,Ka[11060]or oc(35938,66022,11060)elseif za>16504 then if(zb>=0 and v>Ra)or((zb<0 or zb~=zb)and v<Ra)then za=Ka[19022]or oc(8973,21451,19022)else za=Ka[18059]or oc(54864,16574,18059)end elseif za<=15113 then za,A=58320,nil else if Ac==1 then za=Ka[-22959]or oc(6094,102737,-22959)continue elseif Ac==4 then za=Ka[12045]or oc(5252,107121,12045)continue end za=Ka[4704]or oc(9495,14849,4704)end elseif za>=21798 then if za<=21950 then if za>21798 then if(C>=0 and fc>nc)or((C<0 or C~=C)and fc<nc)then za=Ka[-32184]or oc(33670,125257,-32184)else za=Ka[-3972]or oc(60747,108115,-3972)end else Sb=C if(Sb==2)then za=Ka[24133]or oc(21483,60224,24133)continue else za=Ka[13552]or oc(19430,53228,13552)continue end za=Ka[-6621]or oc(6260,129077,-6621)end else if(Sb==6)then za=Ka[-5057]or oc(6247,113383,-5057)continue else za=Ka[-28284]or oc(61674,126755,-28284)continue end za=Ka[24600]or oc(52034,118177,24600)end elseif za>18751 then fc=Db if qb~=qb then za=Ka[-24580]or oc(49723,519,-24580)else za=Ka[30857]or oc(50360,103602,30857)end else qb=y if oa~=oa then za=32454 else za=Ka[-29033]or oc(39449,77412,-29033)end end elseif za>12382 then if za>=14207 then if za>14207 then zb=Ra;v[20608]=zb;Yb(ia,{});za=Ka[15872]or oc(54007,6607,15872)else yc=Ta(lb('w','5'),mc,mb);mb,za=mb+1,Ka[4589]or oc(64571,73790,4589)end else za,y=50730,pb(oa,-1035825379)continue end elseif za>11269 then if za>12062 then Ac,za=R(A[1],1,A[2]),Ka[-2071]or oc(64143,72460,-2071)else nc=Ta(lb('\14{\6','2'),mc,mb);za,mb=47218,mb+4 end elseif za<=10213 then if za>9776 then if(wc)then za=Ka[-6712]or oc(3883,101924,-6712)continue else za=Ka[1343]or oc(32796,68476,1343)continue end za=Ka[13079]or oc(34633,67302,13079)else v=v+zb;o_=v if v~=v then za=Ka[787]or oc(56480,108206,787)else za=Ka[-29781]or oc(18431,65185,-29781)end end else C[23498],za=Db[C[2736]+1],Ka[6301]or oc(57974,79509,6301)end elseif za>=31733 then if za>=33631 then if za<37514 then if za<36179 then if za<=33631 then za,Ac=Ka[10392]or oc(31961,113177,10392),pb(A,80)continue else o_=v if Ra~=Ra then za=Ka[-11374]or oc(20595,8573,-11374)else za=17460 end end elseif za>36179 then if(fc>=0 and qb>G)or((fc<0 or fc~=fc)and qb<G)then za=Ka[19231]or oc(12570,99536,19231)else za=Ka[24864]or oc(51986,81244,24864)end else qb,za=pb(G,-1035825379),Ka[21234]or oc(17730,1597,21234)continue end elseif za>=39520 then if za>39761 then C[23498],za=Db[C[21592]+1],Ka[-5793]or oc(5091,99586,-5793)elseif za>39520 then da,za=nil,5245 else za,Ac=Ka[27906]or oc(16702,20723,27906),nil end elseif za<=37514 then Sb=fc if nc~=nc then za=Ka[2399]or oc(42240,117719,2399)else za=21950 end else Ea=0;y,ia,wc,za=1,214,218,23714 end elseif za<32454 then if za>31913 then Ra,za=pb(zb,-488886284),14636 continue elseif za<=31884 then if za>31733 then if(o_>=0 and Ra>zb)or((o_<0 or o_~=o_)and Ra<zb)then za=Ka[-5475]or oc(46077,96935,-5475)else za=Ka[-24866]or oc(21724,5805,-24866)end else v=fb if v==0 then za=Ka[28666]or oc(51980,18799,28666)continue else za=Ka[11595]or oc(38726,109713,11595)continue end za=Ka[12106]or oc(1003,112440,12106)end else za=Ka[-11984]or oc(50526,128196,-11984)continue end elseif za<32919 then if za<=32454 then y,za=nil,9336 else C=nc;oa=M(oa,ob(bc(C,127),(fc-138)*7))if(not Wb(C,128))then za=Ka[4119]or oc(61026,114715,4119)continue else za=Ka[-6280]or oc(54010,122792,-6280)continue end za=Ka[13463]or oc(31911,110933,13463)end elseif za<=32919 then za,A=23587,fb continue else A,za=k(pb(fb,-1035825379)),41611 continue end elseif za>=26488 then if za>=29414 then if za>30161 then if za>30949 then da,za=pb(f_,80),1570 continue else qb=qb+fc;nc=qb if qb~=qb then za=Ka[2363]or oc(28242,18952,2363)else za=Ka[7485]or oc(40673,122048,7485)end end elseif za>=29714 then if za>29714 then if(Sb==10)then za=Ka[21547]or oc(30013,34027,21547)continue else za=Ka[-17824]or oc(64621,79059,-17824)continue end za=Ka[-12040]or oc(56933,80512,-12040)else ia=ia+y;oa=ia if ia~=ia then za=Ka[22658]or oc(37827,73478,22658)else za=Ka[1820]or oc(42400,72921,1820)end end else za,Ob=Ka[-24223]or oc(25246,36981,-24223),nil end elseif za<29078 then if za<=26488 then if(fc>=0 and qb>G)or((fc<0 or fc~=fc)and qb<G)then za=Ka[-7735]or oc(27986,105561,-7735)else za=Ka[538]or oc(1597,62638,538)end else aa,za=nil,4696 end elseif za<=29078 then Ac,za=nil,Ka[-31584]or oc(51461,128092,-31584)else v=bc(Dc(Ac,10),1023);C[56297],za=Db[v+1],Ka[-17326]or oc(1106,102577,-17326)end elseif za<=25164 then if za<=24195 then if za>23714 then zb=Ta(lb('d\17l','X'),mc,mb);mb,za=mb+4,Ka[15291]or oc(12279,23817,15291)elseif za>23587 then oa=ia if wc~=wc then za=Ka[-14260]or oc(1409,109248,-14260)else za=50345 end else Ac,za=A,Ka[9257]or oc(25303,111444,9257)end elseif za<=24350 then C[23498]=Qb(C[20608],0,1)==1;C[44480],za=Qb(C[20608],31,1)==1,Ka[-15026]or oc(43427,93378,-15026)else if Sb==2 then za=Ka[-14370]or oc(7502,17256,-14370)continue elseif(Sb==1)then za=Ka[-10388]or oc(56192,128869,-10388)continue else za=Ka[9777]or oc(29881,106980,9777)continue end za=Ka[-31947]or oc(28301,109544,-31947)end elseif za>26157 then if Sb==3 then za=Ka[30088]or oc(44471,79430,30088)continue elseif Sb==4 then za=Ka[28015]or oc(4699,21529,28015)continue elseif Sb==6 then za=Ka[26720]or oc(63465,2755,26720)continue end za=Ka[-25578]or oc(49077,91766,-25578)elseif za<=25791 then A,za=k'',Ka[15999]or oc(2192,50524,15999)continue else Ea=Xa;ia,wc=U(Ea),false;oa,za,y,Db=(Ea)+130,Ka[-10531]or oc(44890,100409,-10531),131,1 end end end local xa=Ab();lc[60700][mc]=xa return xa end)local zc=(function(Cb,t_)Cb=Ec(Cb)local yb=cc()local function ta(ac,ya)local sa=(function(...)return{...},kb('#',...)end)local h;h=(function(Pb,Jb,db)if Jb>db then return end return Pb[Jb],h(Pb,Jb+1,db)end)local function T(ic,wa,K,na)local tb,Cc,g,V,la,i_,Ua,Fa,d_,Zb,Ja,s_,kc,va,ha,qc,Tb,uc,m,Ib,jb,Qa,c,Ba;V,Ja={},function(Nb,Oa,a_)V[a_]=Fc(Oa,3347)-Fc(Nb,11968)return V[a_]end;Zb=V[-1019]or Ja(29574,21048,-1019)repeat if Zb>30270 then if Zb<47685 then if Zb<40669 then if Zb<=35131 then if Zb<=33250 then if Zb>31684 then if Zb>=32194 then if Zb<=32194 then if(i_>44)then Zb=V[-5479]or Ja(20033,75955,-5479)continue else Zb=V[30115]or Ja(38430,63689,30115)continue end Zb=V[7962]or Ja(49648,93538,7962)else qc=ic[Fa];Zb,tb,jb,d_=29678,Fa+1,g,1 end else if kc[2736]==34 then Zb=V[-1529]or Ja(13239,12097,-1529)continue elseif(kc[2736]==49)then Zb=V[-9631]or Ja(8597,54277,-9631)continue else Zb=V[11084]or Ja(58533,88732,11084)continue end Zb=V[-22281]or Ja(22693,60085,-22281)end elseif Zb<=31301 then if Zb<30589 then Fa=p(g)if(Fa~=nil and Fa[lb('j\191\206A\133\213','5\224\167')]~=nil)then Zb=V[227]or Ja(30369,39044,227)continue else Zb=V[-23563]or Ja(61086,49923,-23563)continue end Zb=V[-830]or Ja(59541,91860,-830)elseif Zb<=30589 then if ic[kc[50150]]<=ic[kc[20608]]then Zb=V[-13043]or Ja(7193,24861,-13043)continue else Zb=V[-7112]or Ja(62683,77275,-7112)continue end Zb=V[18079]or Ja(9911,29867,18079)else Zb,ic[kc[50150]]=V[-28419]or Ja(5882,42088,-28419),#ic[kc[58856]]end elseif Zb<=31559 then if(i_>133)then Zb=V[3174]or Ja(7140,18417,3174)continue else Zb=V[-11977]or Ja(53703,90233,-11977)continue end Zb=V[10152]or Ja(56541,93773,10152)else Cc=Tb if la~=la then Zb=V[-18135]or Ja(30266,51010,-18135)else Zb=V[-31348]or Ja(40718,58338,-31348)end end elseif Zb>=34785 then if Zb>35077 then if i_>203 then Zb=V[-22728]or Ja(23025,92703,-22728)continue else Zb=V[-30089]or Ja(13199,71103,-30089)continue end Zb=V[-18340]or Ja(3085,39197,-18340)elseif Zb>34799 then Fa=ya[kc[58856]+1];Fa[3][Fa[2]],Zb=ic[kc[50150]],V[17791]or Ja(18974,56076,17791)elseif Zb<=34785 then Ib+=kc[10432];Zb=V[8874]or Ja(32802,77104,8874)else Zb,jb[(la-43)]=V[-30208]or Ja(41456,80455,-30208),s_ end elseif Zb>34402 then if(i_>220)then Zb=V[-27651]or Ja(38825,78552,-27651)continue else Zb=V[-25305]or Ja(9475,25543,-25305)continue end Zb=V[11215]or Ja(22434,59312,11215)elseif Zb>33304 then if i_>246 then Zb=V[-13905]or Ja(26266,18026,-13905)continue else Zb=V[-12620]or Ja(6686,24558,-12620)continue end Zb=V[-22911]or Ja(22300,58894,-22911)else Fa,g=kc[28216],kc[23498];c=yb[g]or lc[13238][g]if Fa==1 then Zb=V[29664]or Ja(40484,50179,29664)continue elseif(Fa==2)then Zb=V[-26774]or Ja(6057,37668,-26774)continue else Zb=V[7379]or Ja(46290,47551,7379)continue end Zb=V[-10179]or Ja(12391,25981,-10179)end elseif Zb<=38965 then if Zb<=37042 then if Zb<=36138 then if Zb>=35652 then if Zb>35652 then if(kc[2736]==62)then Zb=V[-8942]or Ja(11839,14195,-8942)continue else Zb=V[-25387]or Ja(15233,47550,-25387)continue end Zb=V[23994]or Ja(39832,76682,23994)else ic[Fa+2]=ha;m,Zb=ha,V[3498]or Ja(49076,63602,3498)end else g,c,qc=Ua if w_(g)~=lb('\198x\156\21\212d\157\24','\160\r\242v')then Zb=V[-1159]or Ja(45421,63301,-1159)continue end Zb=V[-14658]or Ja(29598,33730,-14658)end else Fa=ya[kc[58856]+1];ic[kc[50150]],Zb=Fa[3][Fa[2]],V[-30638]or Ja(34741,71589,-30638)end elseif Zb<38752 then if(not(g<=m))then Zb=V[-14204]or Ja(43850,65656,-14204)continue else Zb=V[-10917]or Ja(51987,88583,-10917)continue end Zb=V[20306]or Ja(3063,39787,20306)elseif Zb>38752 then if(not ic[kc[50150]])then Zb=V[-31720]or Ja(17087,86008,-31720)continue else Zb=V[-3050]or Ja(14228,34694,-3050)continue end Zb=V[-26572]or Ja(47098,67432,-26572)else Fa=kc[50150];g,c=ic[Fa],ic[Fa+1];qc=ic[Fa+2]+c;ic[Fa+2]=qc if c>0 then Zb=V[11397]or Ja(41425,80274,11397)continue else Zb=V[6931]or Ja(7419,67429,6931)continue end Zb=V[-18321]or Ja(50219,86335,-18321)end elseif Zb<=40208 then if Zb>=40077 then if Zb>40077 then sb(ic,g,g+c-1,kc[20608],ic[Fa]);Ib+=1;Zb=V[-1388]or Ja(44252,65102,-1388)else if(Tb==2)then Zb=V[4204]or Ja(16854,80461,4204)continue else Zb=V[-16009]or Ja(49255,87996,-16009)continue end Zb=V[-18533]or Ja(62047,83380,-18533)end elseif Zb<=39713 then ha=K[Ib];Ib+=1;Cc=ha[50150]if(Cc==0)then Zb=V[83]or Ja(35774,98558,83)continue else Zb=V[27223]or Ja(51186,121005,27223)continue end Zb=V[2388]or Ja(48565,79498,2388)else tb=tb+d_;m=tb if tb~=tb then Zb=V[-23159]or Ja(28372,36542,-23159)else Zb=7633 end end elseif Zb>40280 then if i_>52 then Zb=V[-29212]or Ja(30113,65490,-29212)continue else Zb=V[23983]or Ja(31780,76974,23983)continue end Zb=V[-12428]or Ja(287,44083,-12428)else Zb,g[35099]=V[1163]or Ja(30253,75844,1163),tb end elseif Zb<=42724 then if Zb>41619 then if Zb<42354 then if Zb<41923 then jb[1]=jb[3][jb[2]];jb[3]=jb;jb[2]=1;Zb,Ua[tb]=V[12339]or Ja(38348,93549,12339),nil elseif Zb>41923 then if qc<=g then Zb=V[-13373]or Ja(41358,101729,-13373)continue end Zb=V[4181]or Ja(26261,46213,4181)else Zb,va=V[-15482]or Ja(23547,49879,-15482),Fa+d_-1 end elseif Zb<42511 then if Zb<=42354 then tb,jb=g(c,qc);qc=tb if qc==nil then Zb=55927 else Zb=41669 end else tb,jb=g[56297],kc[56297];jb=lb('\159\1\229\fK\143\228=','\178\20\162\229')..jb;d_='';Tb,m,la,Zb=(#tb-1)+10,10,1,V[24641]or Ja(42361,53864,24641)end elseif Zb<=42511 then if(i_>81)then Zb=V[19998]or Ja(56872,63944,19998)continue else Zb=V[6756]or Ja(13997,49357,6756)continue end Zb=V[20529]or Ja(24485,61365,20529)else ic[Fa]=tb;Zb,g=V[-20499]or Ja(11724,17753,-20499),tb end elseif Zb>41147 then if Zb<=41533 then if Zb<=41529 then if kc[2736]==49 then Zb=V[25411]or Ja(64780,101117,25411)continue elseif(kc[2736]==114)then Zb=V[-7621]or Ja(43698,89568,-7621)continue else Zb=V[1165]or Ja(64657,70904,1165)continue end Zb=V[-6680]or Ja(15040,34898,-6680)else g,c,qc=Fa[lb('dp\165OJ\190',';/\204')](g);Zb=V[-12954]or Ja(41967,46001,-12954)end else Zb,ic[kc[2736]]=V[-15673]or Ja(17901,53629,-15673),ic[kc[50150]]+ic[kc[58856]]end elseif Zb<40831 then if Zb<=40669 then m=P(tb)if m==nil then Zb=V[-15550]or Ja(20762,82818,-15550)continue end Zb=V[25163]or Ja(18957,29718,25163)else Fa,g=kc[50150],kc[58856];c=g-1 if c==-1 then Zb=V[29010]or Ja(60160,98342,29010)continue else Zb=V[-31948]or Ja(59930,77347,-31948)continue end Zb=V[-30257]or Ja(14303,14522,-30257)end elseif Zb>40983 then ic[kc[50150]],Zb=kc[23498]-ic[kc[58856]],V[16254]or Ja(14044,33870,16254)elseif Zb<=40831 then if i_>60 then Zb=V[-10449]or Ja(16708,40131,-10449)continue else Zb=V[15517]or Ja(27121,46806,15517)continue end Zb=V[-6690]or Ja(34851,70967,-6690)else jb,d_=g[35099],kc[35099];d_=lb('\19l\235@\199\226\234q','>y\172\169')..d_;m='';ha,la,Zb,Tb=1,(#jb-1)+64,31684,64 end elseif Zb>=46090 then if Zb>46449 then if Zb<46722 then Ba=false;Ib+=1 if(i_>128)then Zb=V[-15523]or Ja(6860,20008,-15523)continue else Zb=V[-981]or Ja(10731,28009,-981)continue end Zb=V[3378]or Ja(47309,68189,3378)elseif Zb>46722 then qc,Zb=d_,V[-21064]or Ja(60493,72619,-21064)continue else Fa=ic[kc[58856]];ic[kc[2736]],Zb=if Fa then Fa else kc[23498]or false,V[30242]or Ja(39925,76645,30242)end elseif Zb>46217 then if i_>80 then Zb=V[-31707]or Ja(10734,39667,-31707)continue else Zb=V[13208]or Ja(958,22970,13208)continue end Zb=V[6006]or Ja(21733,58997,6006)elseif Zb<=46114 then if Zb<=46090 then Fa=kc[23498];ic[kc[2736]]=ic[kc[58856]][Fa];Ib+=1;Zb=V[6830]or Ja(48818,68768,6830)else Ib-=1;K[Ib],Zb={[59874]=175,[50150]=pb(kc[50150],117),[58856]=pb(kc[58856],248),[2736]=0},V[9976]or Ja(22013,57709,9976)end else la=d_ if m~=m then Zb=V[862]or Ja(46576,65890,862)else Zb=49695 end end elseif Zb<=44927 then if Zb<44899 then if Zb<=43044 then d_=d_+Tb;la=d_ if d_~=d_ then Zb=V[3920]or Ja(65260,85118,3920)else Zb=49695 end else tc'';Zb=V[29740]or Ja(30356,61067,29740)end elseif Zb>44899 then if(i_>96)then Zb=V[-17771]or Ja(38027,71232,-17771)continue else Zb=V[30854]or Ja(52144,112538,30854)continue end Zb=V[-31025]or Ja(6342,43604,-31025)else if(kc[2736]==115)then Zb=V[12330]or Ja(50026,68586,12330)continue else Zb=V[-28253]or Ja(23400,39580,-28253)continue end Zb=V[-27355]or Ja(53206,89924,-27355)end elseif Zb<45363 then Ib+=kc[10432];Zb=V[-20799]or Ja(55979,92351,-20799)elseif Zb<=45363 then ha=P(m)if(ha==nil)then Zb=V[-1190]or Ja(12529,49536,-1190)continue else Zb=V[-26280]or Ja(64963,86868,-26280)continue end Zb=35652 else if(jb>=0 and qc>tb)or((jb<0 or jb~=jb)and qc<tb)then Zb=V[-32628]or Ja(6784,43154,-32628)else Zb=26305 end end elseif Zb>=54553 then if Zb<=59503 then if Zb<56596 then if Zb<54892 then if Zb>54661 then if(i_>18)then Zb=V[-30582]or Ja(36187,84797,-30582)continue else Zb=V[25815]or Ja(52491,64445,25815)continue end Zb=V[27224]or Ja(56278,92996,27224)elseif Zb<=54553 then ic[kc[58856]]=kc[50150]==1;Ib+=kc[2736];Zb=V[-24705]or Ja(18103,54443,-24705)else if(i_>152)then Zb=V[5456]or Ja(18640,45904,5456)continue else Zb=V[4933]or Ja(34862,77606,4933)continue end Zb=V[-3637]or Ja(49691,86799,-3637)end elseif Zb>55487 then g,c,qc=uc if w_(g)~=lb('\254\189\238\17\236\161\239\28','\152\200\128r')then Zb=V[18846]or Ja(6761,63653,18846)continue end Zb=V[-5271]or Ja(20329,74843,-5271)elseif Zb>55355 then Ib+=kc[10432];Zb=V[1841]or Ja(3663,40131,1841)elseif Zb>54892 then if(g<=qc)then Zb=V[-4450]or Ja(50365,75142,-4450)continue else Zb=V[-18119]or Ja(59963,80687,-18119)continue end Zb=V[30893]or Ja(62133,82085,30893)else Ib+=kc[10432];Zb=V[-26388]or Ja(23417,60393,-26388)end elseif Zb<=57882 then if Zb>57670 then if Zb>57757 then if(i_>87)then Zb=V[-19085]or Ja(56349,113875,-19085)continue else Zb=V[5547]or Ja(37623,84015,5547)continue end Zb=V[-32406]or Ja(25959,45563,-32406)else tb,Zb=tb..u_(pb(Da(c,(Tb-10)+1),Da(qc,(Tb-10)%#qc+1))),V[-27401]or Ja(58120,67597,-27401)end elseif Zb>56978 then if i_>28 then Zb=V[19789]or Ja(58973,55680,19789)continue else Zb=V[-6324]or Ja(44094,87484,-6324)continue end Zb=V[21283]or Ja(5525,41349,21283)elseif Zb<=56596 then Ib+=kc[10432];Zb=V[1246]or Ja(41573,61685,1246)else g=na[56291];Zb,va=V[21798]or Ja(62714,103443,21798),Fa+g-1 end elseif Zb<58765 then qc,Zb=d_,V[18703]or Ja(53195,73702,18703)continue elseif Zb<=58765 then Ib+=1;Zb=V[21548]or Ja(29283,49399,21548)else Qa={[1]=ic[ha[58856]],[2]=1};Qa[3]=Qa;jb[(la-43)],Zb=Qa,V[-30838]or Ja(54997,109866,-30838)end elseif Zb>61732 then if Zb>=63084 then if Zb<64349 then Tb=Tb+ha;Cc=Tb if Tb~=Tb then Zb=V[1753]or Ja(61428,81816,1753)else Zb=V[-12295]or Ja(12953,21615,-12295)end elseif Zb>64349 then Zb,ic[kc[50150]]=V[18171]or Ja(51222,81294,18171),c[kc[56297]][kc[35099]]else Ib+=1;Zb=V[29225]or Ja(53703,97627,29225)end elseif Zb>=62604 then if Zb<=62604 then if(jb[2]>=kc[50150])then Zb=V[23067]or Ja(16557,53894,23067)continue else Zb=V[-19419]or Ja(40249,59519,-19419)continue end Zb=V[19984]or Ja(22225,42135,19984)else if(la>=0 and m>Tb)or((la<0 or la~=la)and m<Tb)then Zb=V[8650]or Ja(10934,45890,8650)else Zb=47685 end end else qc..=ic[m];Zb=V[284]or Ja(49785,99715,284)end elseif Zb<61403 then if Zb>=60895 then if Zb<=60895 then s_={[2]=Qa,[3]=ic};Ua[Qa],Zb=s_,V[11052]or Ja(35204,74272,11052)else g,c,qc=E(g);Zb=V[26146]or Ja(64966,95595,26146)end elseif Zb<=60351 then Zb,ic[kc[50150]]=V[18390]or Ja(60368,80706,18390),kc[23498]else if(Cc==1)then Zb=V[27222]or Ja(53320,82908,27222)continue else Zb=V[26791]or Ja(58090,57251,26791)continue end Zb=V[-30684]or Ja(1599,56368,-30684)end elseif Zb<61711 then if Zb<=61403 then if ic[kc[50150]]<ic[kc[20608]]then Zb=V[-26587]or Ja(39251,66942,-26587)continue else Zb=V[20459]or Ja(6122,22024,20459)continue end Zb=V[-30422]or Ja(14808,34122,-30422)else Fa,g=kc[50150],kc[58856]-1 if g==-1 then Zb=V[3103]or Ja(20847,86866,3103)continue end Zb=48838 end elseif Zb<=61711 then Fa,g=nil,pb(kc[34689],53055);Fa=if g<32768 then g else g-65536;c=Fa;qc=wa[c+1];tb=qc[63586];jb=U(tb);ic[pb(kc[50150],197)]=ta(qc,jb);m,Tb,d_,Zb=(tb)+43,1,44,46217 else Ib+=kc[10432];Zb=V[18304]or Ja(30450,50272,18304)end elseif Zb<=51272 then if Zb<=50249 then if Zb<49421 then if Zb<48867 then if Zb<=47685 then d_,Zb=d_..u_(pb(Da(tb,(ha-10)+1),Da(jb,(ha-10)%#jb+1))),V[9771]or Ja(44050,89168,9771)else sb(na[52405],1,g,Fa,ic);Zb=V[-12307]or Ja(60306,80768,-12307)end elseif Zb<=48867 then Fa,g,c,qc=kc[23498],kc[44480],ic[kc[50150]],nil;qc=n_(c)==lb('gN4iD:k','\5![')if(qc and(c==Fa))~=g then Zb=V[-22768]or Ja(28324,70704,-22768)continue else Zb=V[-9211]or Ja(58644,113778,-9211)continue end Zb=V[-9813]or Ja(34942,72428,-9813)else qc,tb=g[23498],kc[23498];tb=lb('k\211\29\171\191]\28\154','F\198ZB')..tb;jb='';d_,m,Zb,Tb=113,(#qc-1)+113,16037,1 end elseif Zb>49865 then Zb,d_=V[20922]or Ja(616,35362,20922),c-1 elseif Zb<=49695 then if Zb<=49421 then Fa=p(g)if(Fa~=nil and Fa[lb('\149\203\r\190\241\22','\202\148d')]~=nil)then Zb=V[-24127]or Ja(21453,59040,-24127)continue else Zb=V[29814]or Ja(18163,43334,29814)continue end Zb=V[25338]or Ja(19195,75465,25338)else if(Tb>=0 and d_>m)or((Tb<0 or Tb~=Tb)and d_<m)then Zb=V[32675]or Ja(33041,76801,32675)else Zb=39713 end end else if i_>156 then Zb=V[-31001]or Ja(60253,113743,-31001)continue else Zb=V[20999]or Ja(59546,96430,20999)continue end Zb=V[11763]or Ja(40515,77015,11763)end elseif Zb<=50779 then if Zb>=50758 then if Zb<=50758 then Fa,g,c=pb(kc[58856],38),pb(kc[50150],254),pb(kc[2736],176);qc,tb=g==0 and va-Fa or g-1,ic[Fa];jb,d_=sa(tb(h(ic,Fa+1,Fa+qc)))if c==0 then Zb=V[-26527]or Ja(2924,50300,-26527)continue else Zb=V[-20449]or Ja(50788,107006,-20449)continue end Zb=23177 else if(i_>230)then Zb=V[-5258]or Ja(43942,63342,-5258)continue else Zb=V[-109]or Ja(50661,80915,-109)continue end Zb=V[14209]or Ja(34408,70906,14209)end elseif Zb>50463 then Fa,g=nil,pb(kc[34689],13361);Fa=if g<32768 then g else g-65536;c=Fa;ic[pb(kc[50150],141)],Zb=c,V[6762]or Ja(50333,87693,6762)else ic[kc[2736]][ic[kc[50150]]],Zb=ic[kc[58856]],V[-6762]or Ja(1140,38630,-6762)end elseif Zb<=51103 then if Zb>51061 then tb,jb=g(c,qc);qc=tb if qc==nil then Zb=V[19395]or Ja(5598,20557,19395)else Zb=5612 end else Zb,qc=V[11400]or Ja(46343,46402,11400),va-Fa+1 end else c[(d_-219)],Zb=ya[m[58856]+1],V[-20480]or Ja(37272,75379,-20480)end elseif Zb>52330 then if Zb<52919 then if Zb>52353 then m=m+la;ha=m if m~=m then Zb=V[14084]or Ja(44605,79819,14084)else Zb=V[-11808]or Ja(51626,118973,-11808)end elseif Zb<=52341 then g[23498]=c if Fa==2 then Zb=V[-21170]or Ja(9682,796,-21170)continue elseif Fa==3 then Zb=V[16382]or Ja(27911,21179,16382)continue end Zb=V[-13819]or Ja(58072,103825,-13819)else Ib-=1;K[Ib],Zb={[59874]=67,[50150]=pb(kc[50150],126),[58856]=pb(kc[58856],4),[2736]=0},V[-29664]or Ja(53840,90306,-29664)end elseif Zb>=52953 then if Zb<=52953 then ic[kc[50150]],Zb=ic[kc[2736]]-ic[kc[58856]],V[17722]or Ja(5583,41283,17722)else if w_(g)==lb('\215M\193@\198','\163,')then Zb=V[-29545]or Ja(10552,5953,-29545)continue end Zb=V[-29945]or Ja(28029,30755,-29945)end else tc'';Zb=V[-18862]or Ja(55761,67162,-18862)end elseif Zb<51649 then if Zb<51533 then if(i_>126)then Zb=V[20302]or Ja(46521,65961,20302)continue else Zb=V[31245]or Ja(64221,54025,31245)continue end Zb=V[-21249]or Ja(56371,92455,-21249)elseif Zb>51533 then ic[kc[2736]]=U(kc[20608]);Ib+=1;Zb=V[11544]or Ja(34035,71271,11544)else if i_>82 then Zb=V[1378]or Ja(5641,71664,1378)continue else Zb=V[14998]or Ja(10474,41258,14998)continue end Zb=V[17659]or Ja(34167,70123,17659)end elseif Zb>=52243 then if Zb>52243 then kc[59874]=203;Ib+=1;Zb=V[30710]or Ja(11520,30738,30710)else if(m>=0 and jb>d_)or((m<0 or m~=m)and jb<d_)then Zb=V[-13687]or Ja(31141,35361,-13687)else Zb=V[-18614]or Ja(63758,111736,-18614)end end elseif Zb>51649 then c,qc=Fa[23498],kc[23498];qc=lb('c\96\251\232\183\238\250\217','Nu\188\1')..qc;tb='';jb,d_,m,Zb=10,(#c-1)+10,1,V[-3874]or Ja(45088,45268,-3874)else Ib-=1;K[Ib],Zb={[59874]=246,[50150]=pb(kc[50150],246),[58856]=pb(kc[58856],46),[2736]=0},V[-20939]or Ja(1289,36889,-20939)end elseif Zb<=14524 then if Zb<6810 then if Zb<=3887 then if Zb<1670 then if Zb<=1011 then if Zb<799 then if Zb>485 then Zb,qc=42363,nil else Zb,va,Ib,Ua,uc,Ba=V[10815]or Ja(24668,45774,10815),-1,1,j({},{[lb('\226\218_\210\225W','\189\133\50')]=lb('\244\241','\130')}),j({},{[lb('\190\178-\142\137%','\225\237@')]=lb('.6','E')}),false end elseif Zb<=799 then Fa,g,c=kc[2736],kc[58856],kc[23498];qc=ic[g];ic[Fa+1]=qc;ic[Fa]=qc[c];Ib+=1;Zb=V[17688]or Ja(13448,34458,17688)else Fa,Zb,g,c=kc[28216],48912,K[Ib+1],nil end elseif Zb<1578 then Ib-=1;Zb,K[Ib]=V[13346]or Ja(15502,36508,13346),{[59874]=81,[50150]=pb(kc[50150],111),[58856]=pb(kc[58856],178),[2736]=0}elseif Zb<=1578 then Ib-=1;K[Ib],Zb={[59874]=43,[50150]=pb(kc[50150],151),[58856]=pb(kc[58856],69),[2736]=0},V[-27047]or Ja(31873,52881,-27047)else if(i_>166)then Zb=V[-16578]or Ja(36896,107260,-16578)continue else Zb=V[-18292]or Ja(63134,103988,-18292)continue end Zb=V[-16548]or Ja(24075,61215,-16548)end elseif Zb>=3062 then if Zb>=3760 then if Zb<=3760 then if i_>130 then Zb=V[-17564]or Ja(4844,48826,-17564)continue else Zb=V[32068]or Ja(10637,19738,32068)continue end Zb=V[13835]or Ja(8747,29503,13835)else if(i_>175)then Zb=V[-2589]or Ja(56191,94539,-2589)continue else Zb=V[17477]or Ja(30747,74099,17477)continue end Zb=V[10247]or Ja(31897,52873,10247)end elseif Zb<=3062 then if(kc[2736]==98)then Zb=V[-5309]or Ja(40021,54107,-5309)continue else Zb=V[-13498]or Ja(33256,49207,-13498)continue end Zb=V[20565]or Ja(31600,52194,20565)else if(w_(g)==lb('\211\143\197\130\194','\167\238'))then Zb=V[13197]or Ja(13819,67345,13197)continue else Zb=V[28410]or Ja(58297,98296,28410)continue end Zb=V[-25531]or Ja(40521,88296,-25531)end elseif Zb<=2557 then if Zb>2260 then if i_>117 then Zb=V[-21835]or Ja(62381,106236,-21835)continue else Zb=V[31065]or Ja(9742,46430,31065)continue end Zb=V[-28397]or Ja(61066,81048,-28397)elseif Zb<=1670 then if Cc==2 then Zb=V[10701]or Ja(11142,4819,10701)continue end Zb=V[-6156]or Ja(59939,90132,-6156)else Fa,Zb,g=K[Ib],51919,nil end else Fa[23498]=g;Zb,kc[59874]=V[-32469]or Ja(5718,42180,-32469),152 end elseif Zb<=5612 then if Zb>=5176 then if Zb>=5566 then if Zb<=5566 then if i_>148 then Zb=V[12882]or Ja(36439,72907,12882)continue else Zb=V[-12536]or Ja(58001,88287,-12536)continue end Zb=V[-8902]or Ja(18833,54657,-8902)else _a(jb);uc[tb],Zb=nil,V[-16919]or Ja(56362,112538,-16919)end elseif Zb>5176 then m,Zb=m..u_(pb(Da(jb,(Cc-64)+1),Da(d_,(Cc-64)%#d_+1))),V[-13201]or Ja(57832,116871,-13201)else ic[Fa+1]=m;Zb,tb=V[-2070]or Ja(22178,54922,-2070),m end elseif Zb<=4698 then if Zb>4257 then g,c,qc=E(g);Zb=V[29822]or Ja(1668,21668,29822)elseif Zb>4030 then Fa,g,c=kc[23498],kc[44480],ic[kc[50150]]if((c==Fa)~=g)then Zb=V[-32148]or Ja(50985,104223,-32148)continue else Zb=V[10773]or Ja(59901,76533,10773)continue end Zb=V[14828]or Ja(4953,41929,14828)else tb=P(g)if(tb==nil)then Zb=V[-20728]or Ja(58368,62401,-20728)continue else Zb=V[-7667]or Ja(5429,61386,-7667)continue end Zb=42724 end else if(i_>10)then Zb=V[3881]or Ja(8100,25765,3881)continue else Zb=V[-7820]or Ja(45067,90054,-7820)continue end Zb=V[-16870]or Ja(22915,58775,-16870)end elseif Zb>=6472 then if Zb<=6479 then if Zb>6472 then Ib-=1;Zb,K[Ib]=V[12262]or Ja(33914,71400,12262),{[59874]=130,[50150]=pb(kc[50150],81),[58856]=pb(kc[58856],1),[2736]=0}else Ib+=kc[10432];Zb=V[22650]or Ja(54053,90677,22650)end else jb[(la-43)],Zb=ya[ha[58856]+1],V[32310]or Ja(63255,101608,32310)end elseif Zb<=5838 then if Zb<=5816 then Ib+=kc[10432];Zb=V[-26317]or Ja(22601,60121,-26317)else tb,jb=g[56297],kc[56297];jb=lb('MJ\209^\153\196\208o','\96_\150\183')..jb;d_='';m,la,Zb,Tb=102,1,V[-25846]or Ja(46043,57539,-25846),(#tb-1)+102 end else Zb,ic[kc[50150]]=V[-8270]or Ja(54258,84970,-8270),c end elseif Zb>10465 then if Zb>12778 then if Zb<14166 then if Zb<=12992 then if Zb<=12857 then Ib-=1;K[Ib],Zb={[59874]=87,[50150]=pb(kc[50150],44),[58856]=pb(kc[58856],94),[2736]=0},V[12740]or Ja(46188,67326,12740)else g,c,qc=E(g);Zb=V[-10590]or Ja(4547,68529,-10590)end else tc'';Zb=V[10073]or Ja(63240,101823,10073)end elseif Zb>=14418 then if Zb>14418 then if(i_>129)then Zb=V[16395]or Ja(14970,40116,16395)continue else Zb=V[-249]or Ja(63086,95354,-249)continue end Zb=V[23434]or Ja(2086,38196,23434)else Fa=kc[50150];g,c=ic[Fa],nil;qc=g;c=n_(qc)==lb('\f\57B\0)]','bL/')if(not c)then Zb=V[1086]or Ja(43348,39489,1086)continue else Zb=V[-28834]or Ja(38699,62010,-28834)continue end Zb=17726 end else jb=jb+m;Tb=jb if jb~=jb then Zb=V[30456]or Ja(19450,38932,30456)else Zb=V[5841]or Ja(14129,60183,5841)end end elseif Zb>=11691 then if Zb>12659 then g[56297]=qc;tb,Zb=nil,V[-18391]or Ja(1088,51076,-18391)elseif Zb>12237 then tb,jb=g(c,qc);qc=tb if qc==nil then Zb=V[-32316]or Ja(35679,72691,-32316)else Zb=62604 end elseif Zb<=11691 then d_,Zb=d_..u_(pb(Da(tb,(ha-102)+1),Da(jb,(ha-102)%#jb+1))),V[5822]or Ja(64572,78478,5822)else Zb,g=V[-15743]or Ja(26817,23980,-15743),tb continue end elseif Zb>=11187 then if Zb>11187 then Zb,jb=V[23305]or Ja(58119,65839,23305),jb..u_(pb(Da(qc,(la-113)+1),Da(tb,(la-113)%#tb+1)))else Ib-=1;Zb,K[Ib]=V[6147]or Ja(43091,64199,6147),{[59874]=148,[50150]=pb(kc[50150],201),[58856]=pb(kc[58856],74),[2736]=0}end elseif Zb>10902 then if i_>171 then Zb=V[32197]or Ja(49544,91294,32197)continue else Zb=V[19934]or Ja(53887,117583,19934)continue end Zb=V[-3580]or Ja(46243,67255,-3580)else if(i_>43)then Zb=V[32337]or Ja(49857,91344,32337)continue else Zb=V[-19404]or Ja(63953,111940,-19404)continue end Zb=V[-4925]or Ja(30529,51153,-4925)end elseif Zb>=7711 then if Zb<8768 then if Zb<8679 then if Zb<=7711 then if(i_>236)then Zb=V[6775]or Ja(17534,66020,6775)continue else Zb=V[-11054]or Ja(2092,57428,-11054)continue end Zb=V[-22886]or Ja(39567,75907,-22886)else Tb=jb if d_~=d_ then Zb=V[-16312]or Ja(11608,15990,-16312)else Zb=V[18019]or Ja(40759,95001,18019)end end elseif Zb<=8679 then if kc[2736]==139 then Zb=V[-12060]or Ja(17403,32374,-12060)continue else Zb=V[30938]or Ja(31381,84420,30938)continue end Zb=V[-21432]or Ja(24570,61288,-21432)else Ib+=kc[10432];Zb=V[10526]or Ja(7165,43885,10526)end elseif Zb>10027 then if i_>188 then Zb=V[-20017]or Ja(5118,69271,-20017)continue else Zb=V[26074]or Ja(50500,78128,26074)continue end Zb=V[20025]or Ja(63778,82992,20025)elseif Zb>=8780 then if Zb>8780 then if i_>77 then Zb=V[-451]or Ja(34670,49041,-451)continue else Zb=V[13507]or Ja(59870,108833,13507)continue end Zb=V[-39]or Ja(33721,70569,-39)else if(i_>63)then Zb=V[-5593]or Ja(7530,47313,-5593)continue else Zb=V[1873]or Ja(1258,29553,1873)continue end Zb=V[29538]or Ja(51500,87102,29538)end else Zb=V[982]or Ja(60178,98461,982)continue end elseif Zb<7306 then if Zb>=7131 then if Zb>7131 then Zb,qc=5838,nil else if i_>88 then Zb=V[-12861]or Ja(19688,75340,-12861)continue else Zb=V[-24806]or Ja(53067,108491,-24806)continue end Zb=V[7599]or Ja(52871,89243,7599)end else if(Fa==3)then Zb=V[29946]or Ja(61658,119210,29946)continue else Zb=V[28099]or Ja(15154,21162,28099)continue end Zb=V[-27000]or Ja(38070,67886,-27000)end elseif Zb<7633 then if Zb>7306 then Ib-=1;K[Ib],Zb={[59874]=193,[50150]=pb(kc[50150],147),[58856]=pb(kc[58856],75),[2736]=0},V[-31432]or Ja(13266,33600,-31432)else return h(ic,Fa,Fa+qc-1)end elseif Zb<=7633 then if(d_>=0 and tb>jb)or((d_<0 or d_~=d_)and tb<jb)then Zb=V[31397]or Ja(51568,75354,31397)else Zb=V[-2089]or Ja(55969,125755,-2089)end else if(kc[2736]==197)then Zb=V[-28418]or Ja(3070,23140,-28418)continue else Zb=V[-21967]or Ja(17456,60477,-21967)continue end Zb=V[2312]or Ja(59938,80688,2312)end elseif Zb>22579 then if Zb<27656 then if Zb>=24840 then if Zb>25581 then if Zb<=26305 then if Zb>25806 then m=K[Ib];Ib+=1;Tb=m[50150]if(Tb==0)then Zb=V[-21034]or Ja(30287,52990,-21034)continue else Zb=V[16770]or Ja(36067,78755,16770)continue end Zb=V[-20790]or Ja(27060,48751,-20790)else Zb,ic[kc[50150]]=V[-8556]or Ja(49909,80111,-8556),c[kc[56297]]end else la={[1]=ic[m[58856]],[2]=1};la[3]=la;c[(d_-219)],Zb=la,V[3606]or Ja(44682,57665,3606)end elseif Zb<=25399 then if Zb<25361 then Fa,g=kc[50150],kc[58856];c,qc=_c(Vb,ic,'',Fa,g)if(not c)then Zb=V[16282]or Ja(14201,38536,16282)continue else Zb=V[-16694]or Ja(37418,69008,-16694)continue end Zb=V[-25852]or Ja(54295,78691,-25852)elseif Zb<=25361 then if(i_>200)then Zb=V[-10185]or Ja(5117,52075,-10185)continue else Zb=V[11181]or Ja(2631,16507,11181)continue end Zb=V[-2068]or Ja(18167,54379,-2068)else m,Tb=ic[Fa+2],nil;la=m;Tb=n_(la)==lb('\21&W\25\54H','{S:')if(not Tb)then Zb=V[-11306]or Ja(45698,82022,-11306)continue else Zb=V[-15487]or Ja(2512,34798,-15487)continue end Zb=25581 end else if(tb>0)then Zb=V[-17090]or Ja(53004,78349,-17090)continue else Zb=V[8778]or Ja(12523,48172,8778)continue end Zb=V[-3061]or Ja(24960,52626,-3061)end elseif Zb>23581 then if Zb>24150 then Ib+=1;Zb=V[-14762]or Ja(51784,88282,-14762)elseif Zb>23890 then qc,Zb=g-1,V[25752]or Ja(49455,65898,25752)else if(not(m<=g))then Zb=V[-2112]or Ja(4937,22866,-2112)continue else Zb=V[-16654]or Ja(60401,80737,-16654)continue end Zb=V[23850]or Ja(25904,45090,23850)end elseif Zb<=23209 then if Zb<=23177 then if Zb>22863 then sb(jb,1,d_,Fa,ic);Zb=V[1588]or Ja(53503,90771,1588)else if(i_>72)then Zb=V[-13839]or Ja(12798,13834,-13839)continue else Zb=V[16572]or Ja(1881,31196,16572)continue end Zb=V[-10143]or Ja(47514,66952,-10143)end else Fa=p(g)if(Fa~=nil and Fa[lb('M\28\169f&\178','\18C\192')]~=nil)then Zb=V[28705]or Ja(10264,41990,28705)continue else Zb=V[14246]or Ja(56096,116560,14246)continue end Zb=V[12496]or Ja(1279,22177,12496)end else if ic[kc[50150]]then Zb=V[-9603]or Ja(54187,72608,-9603)continue end Zb=V[1710]or Ja(32651,53151,1710)end elseif Zb<29015 then if Zb<28326 then if Zb>27809 then if i_>131 then Zb=V[5658]or Ja(47948,73938,5658)continue else Zb=V[-7198]or Ja(3253,15414,-7198)continue end Zb=V[618]or Ja(27160,47882,618)elseif Zb>27656 then m=m+la;ha=m if m~=m then Zb=V[-27080]or Ja(65075,114318,-27080)else Zb=29898 end else qc=qc+jb;d_=qc if qc~=qc then Zb=V[24748]or Ja(40386,76112,24748)else Zb=45447 end end elseif Zb>=28968 then if Zb>28968 then if(not Ba)then Zb=V[-7606]or Ja(14605,25856,-7606)continue else Zb=V[19200]or Ja(63308,98881,19200)continue end Zb=46534 else jb[1]=jb[3][jb[2]];jb[3]=jb;jb[2]=1;Zb,Ua[tb]=V[-16532]or Ja(20586,48398,-16532),nil end elseif Zb>28326 then g,c,qc=Ua if w_(g)~=lb('S\234\14\152A\246\15\149','5\159\96\251')then Zb=V[16366]or Ja(34323,70179,16366)continue end Zb=V[1996]or Ja(53595,108574,1996)else g,c,qc=Fa[lb('|y\244WC\239','#&\157')](g);Zb=V[29387]or Ja(60356,98736,29387)end elseif Zb>=29844 then if Zb<=29975 then if Zb>29898 then Fa=wa[kc[23498]+1];g=Fa[63586];c=U(g);ic[kc[50150]]=ta(Fa,c);jb,qc,tb,Zb=1,220,(g)+219,29500 elseif Zb>29844 then if(la>=0 and m>Tb)or((la<0 or la~=la)and m<Tb)then Zb=V[-8790]or Ja(50017,122200,-8790)else Zb=V[26812]or Ja(28897,34527,26812)end else if(i_>53)then Zb=V[19038]or Ja(38185,101439,19038)continue else Zb=V[-18103]or Ja(17212,67172,-18103)continue end Zb=V[-30468]or Ja(49094,69460,-30468)end else if kc[2736]==233 then Zb=V[-20798]or Ja(17983,35696,-20798)continue else Zb=V[-26419]or Ja(194,35643,-26419)continue end Zb=V[-28423]or Ja(37256,81306,-28423)end elseif Zb<29500 then tb,Zb=m,V[24855]or Ja(22077,72518,24855)continue elseif Zb>29500 then m=tb if jb~=jb then Zb=V[15754]or Ja(34916,59182,15754)else Zb=7633 end else d_=qc if tb~=tb then Zb=V[-18265]or Ja(4643,41783,-18265)else Zb=V[-10074]or Ja(30021,65567,-10074)end end elseif Zb<17883 then if Zb>15796 then if Zb>17073 then if Zb>17305 then tb,jb=ic[Fa+1],nil;d_=tb;jb=n_(d_)==lb('?\215\243\51\199\236','Q\162\158')if(not jb)then Zb=V[-4160]or Ja(47269,79953,-4160)continue else Zb=V[-11051]or Ja(32606,47558,-11051)continue end Zb=V[24339]or Ja(62428,85312,24339)else ic[kc[2736]],Zb=qc,V[852]or Ja(36270,72124,852)end elseif Zb<=16037 then if Zb<15989 then Ib+=kc[10432];Zb=V[22034]or Ja(31997,52845,22034)elseif Zb>15989 then la=d_ if m~=m then Zb=V[-26850]or Ja(870,26185,-26850)else Zb=14925 end else d_=d_+Tb;la=d_ if d_~=d_ then Zb=V[7562]or Ja(41017,49598,7562)else Zb=V[-22718]or Ja(41698,52092,-22718)end end else Zb,c=V[-12463]or Ja(50443,99784,-12463),va-g+1 end elseif Zb<15612 then if Zb<14925 then if Zb<=14645 then Ib+=1;Zb=V[-16083]or Ja(23729,61089,-16083)else Ib-=1;Zb,K[Ib]=V[7132]or Ja(36292,72022,7132),{[59874]=156,[50150]=pb(kc[50150],62),[58856]=pb(kc[58856],178),[2736]=0}end elseif Zb<=14925 then if(Tb>=0 and d_>m)or((Tb<0 or Tb~=Tb)and d_<m)then Zb=V[4701]or Ja(399,24592,4701)else Zb=V[-31114]or Ja(5268,27230,-31114)end else if w_(g)==lb('l\20z\25}','\24u')then Zb=V[15952]or Ja(30719,34540,15952)continue end Zb=V[-26500]or Ja(1906,64578,-26500)end elseif Zb<15670 then if Zb<=15612 then Fa,g,c=kc[2736],kc[58856],kc[50150]-1 if c==-1 then Zb=V[-21219]or Ja(64770,72544,-21219)continue end Zb=40208 else if(ha>=0 and Tb>la)or((ha<0 or ha~=ha)and Tb<la)then Zb=V[10419]or Ja(61626,82626,10419)else Zb=V[24686]or Ja(63614,57602,24686)end end elseif Zb<=15670 then g,c,qc=Fa[lb('\239\230\187\196\220\160','\176\185\210')](g);Zb=V[-15531]or Ja(14511,46834,-15531)else Zb,c=V[-26908]or Ja(8447,55207,-26908),jb continue end elseif Zb<20639 then if Zb<18887 then if Zb<18093 then Fa=kc[23498];ic[kc[50150]][Fa]=ic[kc[2736]];Ib+=1;Zb=V[-23688]or Ja(37436,74542,-23688)elseif Zb<=18093 then Ib+=kc[10432];Zb=V[-27477]or Ja(55601,91169,-27477)else Zb,ic[kc[50150]]=V[-15843]or Ja(52006,88628,-15843),ic[kc[58856]]end elseif Zb<=20550 then if Zb<19254 then Ib+=1;Zb=V[11190]or Ja(61141,80965,11190)elseif Zb>19254 then kc=K[Ib];i_,Zb=kc[59874],V[27028]or Ja(62362,106035,27028)else if i_>46 then Zb=V[-14998]or Ja(7579,57289,-14998)continue else Zb=V[27354]or Ja(43423,48358,27354)continue end Zb=V[9177]or Ja(39533,76029,9177)end else Qa=ha[58856];s_=Ua[Qa]if s_==nil then Zb=V[-17294]or Ja(51146,121850,-17294)continue end Zb=V[-1612]or Ja(60980,83440,-1612)end elseif Zb>=21547 then if Zb<=22566 then if Zb>=21560 then if Zb<=21560 then Ib+=kc[10432];Zb=V[-30661]or Ja(59452,79150,-30661)else Zb,ic[kc[50150]]=V[-26380]or Ja(10058,30680,-26380),nil end else g[56297],Zb=qc,V[-20937]or Ja(7549,68916,-20937)end else if(i_>169)then Zb=V[-14964]or Ja(60435,58184,-14964)continue else Zb=V[1716]or Ja(13623,12095,1716)continue end Zb=V[-30745]or Ja(6284,43678,-30745)end elseif Zb>20698 then ha=m if Tb~=Tb then Zb=V[28960]or Ja(38210,96334,28960)else Zb=V[-28264]or Ja(63338,115453,-28264)end elseif Zb>=20661 then if Zb<=20661 then ha=m if Tb~=Tb then Zb=V[32096]or Ja(32903,105954,32096)else Zb=V[-3443]or Ja(22032,57481,-3443)end else Ib+=1;Zb=V[-17364]or Ja(12843,33599,-17364)end else if i_>185 then Zb=V[-6632]or Ja(32432,41374,-6632)continue else Zb=V[28279]or Ja(30279,25659,28279)continue end Zb=V[-9452]or Ja(20099,56471,-9452)end until Zb==51132 end return function(...)local bb,ma,D,W,rb,ra,vb,sc,ab,hc,Ma;rb,sc={},function(nb,x,La)rb[La]=Fc(nb,33382)-Fc(x,8527)return rb[La]end;D=rb[-25520]or sc(51616,11336,-25520)while D~=40246 do if D<51505 then if D<17686 then if D<=15256 then ma,ab=sa(_c(T,hc,ac[58903],ac[12168],ra))if ma[1]then D=rb[5759]or sc(76907,63079,5759)continue else D=rb[-7277]or sc(112271,19191,-7277)continue end D=17686 else W,hc,ra=J(...),U(ac[33197]),{[56291]=0,[52405]={}};sb(W,1,ac[4502],0,hc)if(ac[4502]<W[lb('6','X')])then D=rb[8134]or sc(6932,4491,8134)continue else D=rb[-23897]or sc(51084,11037,-23897)continue end D=rb[773]or sc(29271,38358,773)end elseif D<=17686 then D=rb[6085]or sc(14612,16243,6085)continue else ma,ab=ac[4502]+1,W[lb('\176','\222')]-ac[4502];ra[56291]=ab;sb(W,ma,ma+ab-1,1,ra[52405]);D=rb[22647]or sc(55674,16075,22647)end elseif D>=55153 then if D>55153 then bb,D=n_(bb),rb[24627]or sc(112713,17393,24627)else return tc(bb,0)end elseif D<=51505 then bb,Ma=ma[2],nil;vb=bb;Ma=n_(vb)==lb('~N\175dT\186','\r:\221')if Ma==false then D=rb[11167]or sc(28407,10971,11167)continue end D=rb[-30260]or sc(69895,39615,-30260)else return h(ma,2,ab)end end end end return ta(Cb,t_)end)local r_;r_,xb={[0]=0},function()r_[0]=r_[0]+1 return{[2]=r_[0],[3]=r_}end;gb=zc return(function()return gb(Za(Kb'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'),{})end)()(...)
+-- // Wait for Game Load // --
+local ALLOWED_PLACE_IDS = {
+    [77747658251236]  = true,
+    [123955125827131] = true,
+    [99684056491472]  = true,
+    [75159314259063]  = true,
+    [96767841099256]  = true,
+}
+
+if not ALLOWED_PLACE_IDS[game.PlaceId] then
+    game:GetService("Players").LocalPlayer:Kick("Game not Supported Loser")
+end
+
+if not game:IsLoaded() then game.Loaded:Wait() end
+game:GetService("Players").LocalPlayer.Idled:Connect(function()
+    local vu = game:GetService("VirtualUser")
+    vu:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+    task.wait(1)
+    vu:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+end)
+getgenv().SecureMode = true
+local RunService        = game:GetService("RunService")
+local Players           = game:GetService("Players")
+local Workspace         = game:GetService("Workspace")
+local TweenService      = game:GetService("TweenService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local LocalPlayer = Players.LocalPlayer
+if not LocalPlayer.Character then LocalPlayer.CharacterAdded:Wait() end
+
+-- ─── Place ID Detection ───────────────────────────────────────────────────────
+local CURRENT_PLACE_ID = game.PlaceId
+
+local MAIN_PLACE_ID         = 77747658251236
+local DOUBLE_DUNGEON_ID     = 123955125827131
+local RUNE_DUNGEON_ID       = 99684056491472
+local SHADOW_DUNGEON_ID     = 75159314259063
+local BOSS_RUSH_ID          = 96767841099256
+
+local DUNGEON_PLACE_IDS = {
+    [DOUBLE_DUNGEON_ID] = true,
+    [RUNE_DUNGEON_ID]   = true,
+    [SHADOW_DUNGEON_ID] = true,
+}
+
+local IS_IN_DUNGEON = DUNGEON_PLACE_IDS[CURRENT_PLACE_ID] == true
+
+-- ─── Core Remotes ─────────────────────────────────────────────────────────────
+local HitRemote     = ReplicatedStorage:WaitForChild("CombatSystem"):WaitForChild("Remotes"):WaitForChild("RequestHit")
+local AbilityRemote = ReplicatedStorage:WaitForChild("AbilitySystem"):WaitForChild("Remotes"):WaitForChild("RequestAbility")
+local QuestAccept   = ReplicatedStorage:WaitForChild("RemoteEvents"):WaitForChild("QuestAccept")
+local QuestAbandon  = ReplicatedStorage:WaitForChild("RemoteEvents"):WaitForChild("QuestAbandon")
+
+local RemoteCache = {}
+local function FireRemote(name, ...)
+    if not RemoteCache[name] then
+        RemoteCache[name] = ReplicatedStorage:FindFirstChild(name, true)
+    end
+    local r = RemoteCache[name]
+    if r then
+        local args = {...}
+        if r:IsA("RemoteEvent") then
+            r:FireServer(unpack(args))
+        elseif r:IsA("RemoteFunction") then
+            pcall(function() r:InvokeServer(unpack(args)) end)
+        end
+    end
+end
+
+-- ─── Load UI ─────────────────────────────────────────────────────────────────
+local Starlight   = loadstring(game:HttpGet("https://raw.nebulasoftworks.xyz/starlight"))()
+local NebulaIcons = loadstring(game:HttpGet("https://raw.nebulasoftworks.xyz/nebula-icon-library-loader"))()
+
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- FRUIT POWER AUTO-DETECT via FruitPowerRemote hook
+-- ═══════════════════════════════════════════════════════════════════════════════
+local DetectedFruitPower = "Light"  -- fallback default
+
+task.spawn(function()
+    local ok, remote = pcall(function()
+        return ReplicatedStorage:WaitForChild("RemoteEvents", 5):WaitForChild("FruitPowerRemote", 5)
+    end)
+    if ok and remote then
+        local oldNamecall
+        oldNamecall = hookmetamethod(game, "__namecall", function(self, ...)
+            local method = getnamecallmethod()
+            if method == "FireServer" and self == remote then
+                local args = {...}
+                if type(args[2]) == "table" and args[2].FruitPower then
+                    DetectedFruitPower = args[2].FruitPower
+                end
+            end
+            return oldNamecall(self, ...)
+        end)
+    end
+end)
+
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- SETTINGS
+-- ═══════════════════════════════════════════════════════════════════════════════
+local Settings = {
+    AutoLevel        = false,
+    AutoFarmMob      = false,
+    SelectedMob      = nil,
+    AutoFarmBoss     = false,
+    SelectedBoss     = nil,
+    AutoFarmPity     = false,
+    PityFarmBossList = {},
+    PityFarmBoss     = nil,
+    PityKillBoss     = nil,
+    PityDifficulty   = "Normal",
+    AutoSummonBoss   = false,
+    SummonBossName   = "Saber Boss",
+    SummonDifficulty = "Normal",
+    AutoCraftGrail   = false,
+    AutoCraftSlime   = false,
+    AutoUnlockSlime   = false,
+    AutoUnlockDungeon = false,
+    AutoJoinDungeon   = false,
+    SelectedDungeon   = "CidDungeon",
+    -- Dungeon
+    DungeonAutoFarm       = false,
+    DungeonDifficulty     = "Easy",
+    DungeonAutoVote       = false,
+    DungeonAutoReplay     = false,
+    DungeonMobPull        = false,
+    DungeonAutoEquip      = false,
+    DungeonSelectedWeapons = {},
+    -- UNIFIED Dungeon skill system
+    DungeonAutoSkill      = false,
+    DungeonSelectedSkills  = {},
+    DungeonSkillInterval  = 0.5,
+    DungeonAutoArmament   = false,
+    DungeonAutoObs        = false,
+    DungeonAutoConq       = false,
+    DungeonFarmPosition   = "Above",
+    DungeonFarmDistance   = 6,
+    -- Combat
+    AutoAttack       = false,
+    -- UNIFIED skill system
+    AutoSkill        = false,
+    SelectedSkills   = {},
+    SkillInterval    = 0.5,
+    -- Equip
+    AutoEquip        = false,
+    SelectedWeapons  = {},
+    -- Stats
+    AutoStats        = false,
+    SelectedStats    = {"Melee"},
+    SelectedStat     = "Melee",
+    StatAmount       = 1,
+    -- Haki
+    AutoArmament     = false,
+    AutoObs          = false,
+    AutoConq         = false,
+    -- Position
+    Farm_Position    = "Above",
+    Farm_Distance    = 6,
+    Tween_Speed      = 50,
+}
+
+local HIT_INTERVAL = 0.01
+
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- QUEST TABLE
+-- ═══════════════════════════════════════════════════════════════════════════════
+local QUESTS = {
+    { id="QuestNPC1",  minLvl=0,    maxLvl=99,    questTitle="Thief Hunter",           npcPath={"ServiceNPCs","QuestNPC1"},  targets={"Thief1","Thief2","Thief3","Thief4","Thief5"} },
+    { id="QuestNPC2",  minLvl=100,  maxLvl=249,   questTitle="Thief Boss",             npcPath={"QuestNPC2"},               targets={"ThiefBoss"} },
+    { id="QuestNPC3",  minLvl=250,  maxLvl=499,   questTitle="Monkey Hunter",          npcPath={"QuestNPC3"},               targets={"Monkey1","Monkey2","Monkey3","Monkey4","Monkey5"} },
+    { id="QuestNPC4",  minLvl=500,  maxLvl=749,   questTitle="Monkey Boss",            npcPath={"QuestNPC4"},               targets={"MonkeyBoss"} },
+    { id="QuestNPC5",  minLvl=750,  maxLvl=999,   questTitle="Desert Bandit Hunter",   npcPath={"QuestNPC5"},               targets={"DesertBandit1","DesertBandit2","DesertBandit3","DesertBandit4","DesertBandit5"} },
+    { id="QuestNPC6",  minLvl=1000, maxLvl=1499,  questTitle="Desert Bandit Boss",     npcPath={"QuestNPC6"},               targets={"DesertBoss"} },
+    { id="QuestNPC7",  minLvl=1500, maxLvl=1999,  questTitle="Frost Rogue Hunter",     npcPath={"QuestNPC7"},               targets={"FrostRogue1","FrostRogue2","FrostRogue3","FrostRogue4","FrostRogue5"} },
+    { id="QuestNPC8",  minLvl=2000, maxLvl=2999,  questTitle="Winter Warden Boss",     npcPath={"QuestNPC8"},               targets={"SnowBoss"} },
+    { id="QuestNPC9",  minLvl=3000, maxLvl=3999,  questTitle="Sorcerer Hunter",        npcPath={"QuestNPC9"},               targets={"Sorcerer1","Sorcerer2","Sorcerer3","Sorcerer4","Sorcerer5"} },
+    { id="QuestNPC10", minLvl=4000, maxLvl=5000,  questTitle="Panda Sorcerer Boss",    npcPath={"QuestNPC10"},              targets={"PandaMiniBoss"} },
+    { id="QuestNPC11", minLvl=5000, maxLvl=6250,  questTitle="Hollow Hunter",          npcPath={"QuestNPC11"},              targets={"Hollow1","Hollow2","Hollow3","Hollow4","Hollow5"} },
+    { id="QuestNPC12", minLvl=6250, maxLvl=7000,  questTitle="Strong Sorcerer Hunter", npcPath={"QuestNPC12"},              targets={"StrongSorcerer1","StrongSorcerer2","StrongSorcerer3","StrongSorcerer4","StrongSorcerer5"} },
+    { id="QuestNPC13", minLvl=7000, maxLvl=8000,  questTitle="Curse Hunter",           npcPath={"QuestNPC13"},              targets={"Curse1","Curse2","Curse3","Curse4","Curse5"} },
+    { id="QuestNPC14", minLvl=8000, maxLvl=9000,  questTitle="Slime Warrior Hunter",   npcPath={"ServiceNPCs","QuestNPC14"},targets={"Slime1","Slime2","Slime3","Slime4","Slime5"} },
+    { id="QuestNPC15", minLvl=9000, maxLvl=10000, questTitle="Academy Challenge",      npcPath={"ServiceNPCs","QuestNPC15"},targets={"AcademyTeacher1","AcademyTeacher2","AcademyTeacher3","AcademyTeacher4","AcademyTeacher5"} },
+}
+local TITLE_TO_QUEST = {}
+for _, q in ipairs(QUESTS) do TITLE_TO_QUEST[q.questTitle] = q end
+
+local SLIME_KEY_WAYPOINTS = {
+    Vector3.new(-854,  1,   -320),
+    Vector3.new(-435,  25,  -1184),
+    Vector3.new(63,    35,  -144),
+    Vector3.new(-584,  58,   318),
+    Vector3.new(1744,  9,    495),
+    Vector3.new(-435,  27,  1399),
+    Vector3.new(788,   68, -2309),
+}
+
+local DUNGEON_PIECE_WAYPOINTS = {
+    Vector3.new(90,    10,  -136),
+    Vector3.new(-396,   1,   510),
+    Vector3.new(-1056,  7,  -307),
+    Vector3.new(-314,  -1, -1188),
+    Vector3.new(1717,  140,  -27),
+    Vector3.new(-686,  100, 1335),
+}
+
+local ISLANDS = {
+    "AcademyIsland","BossIsland","DesertIsland","JungleIsland",
+    "SailorIsland","ShinjukuIsland","SlimeIsland","SnowIsland",
+    "StarterIsland","ValentineIsland",
+}
+
+local DUNGEON_OPTIONS = {
+    { label = "Cid Dungeon",    arg = "CidDungeon",    placeId = MAIN_PLACE_ID },
+    { label = "Rune Dungeon",   arg = "RuneDungeon",   placeId = RUNE_DUNGEON_ID },
+    { label = "Double Dungeon", arg = "DoubleDungeon", placeId = DOUBLE_DUNGEON_ID },
+}
+local DUNGEON_LABELS = {}
+for _, d in ipairs(DUNGEON_OPTIONS) do table.insert(DUNGEON_LABELS, d.label) end
+
+local DUNGEON_DIFFICULTIES = {"Easy","Medium","Hard","Extreme"}
+
+-- ─── Fruit Power Keycodes ─────────────────────────────────────────────────────
+local FRUIT_KEYCODES = {"Z","X","C","V","F","Q","E","R","T","G"}
+
+-- ─── Summonable Boss Config ───────────────────────────────────────────────────
+local SUMMON_DIFFICULTIES = { "Normal", "Medium", "Hard", "Extreme" }
+
+local SUMMON_BOSS_CONFIG = {
+    { id="SaberBoss",    label="Saber Boss",    npcMatch="Saber",              remoteFolder="Remotes",      remoteName="RequestSummonBoss",      buildArgs=function(id,diff) return id end },
+    { id="QinShiBoss",   label="QinShi Boss",   npcMatch="QinShi",             remoteFolder="Remotes",      remoteName="RequestSummonBoss",      buildArgs=function(id,diff) return id end },
+    { id="IchigoBoss",   label="Ichigo Boss",   npcMatch="Ichigo",             remoteFolder="Remotes",      remoteName="RequestSummonBoss",      buildArgs=function(id,diff) return id end },
+    { id="GilgameshBoss",label="Gilgamesh Boss",npcMatch="Gilgamesh",          remoteFolder="Remotes",      remoteName="RequestSummonBoss",      buildArgs=function(id,diff) return id,diff end },
+    { id="Rimuru",       label="Rimuru",         npcMatch="Rimuru",             remoteFolder="RemoteEvents", remoteName="RequestSpawnRimuru",     buildArgs=function(id,diff) return diff end },
+    { id="Anos",         label="Anos",           npcMatch="AnosBoss",           remoteFolder="Remotes",      remoteName="RequestSpawnAnosBoss",   buildArgs=function(id,diff) return "Anos",diff end },
+    { id="GojoV2",       label="GojoV2",         npcMatch="StrongestofTodayBoss",remoteFolder="Remotes",    remoteName="RequestSpawnStrongestBoss",buildArgs=function(id,diff) return "StrongestToday",diff end },
+    { id="SukunaV2",     label="SukunaV2",       npcMatch="StrongestinHistoryBoss",remoteFolder="Remotes",  remoteName="RequestSpawnStrongestBoss",buildArgs=function(id,diff) return "StrongestHistory",diff end },
+}
+
+local SUMMON_BOSS_LABELS = {}
+for _, b in ipairs(SUMMON_BOSS_CONFIG) do table.insert(SUMMON_BOSS_LABELS, b.label) end
+
+local function GetSummonConfigByLabel(label)
+    for _, cfg in ipairs(SUMMON_BOSS_CONFIG) do
+        if cfg.label == label then return cfg end
+    end
+    return nil
+end
+
+local function SummonBossByLabel(label, difficulty)
+    local cfg = GetSummonConfigByLabel(label)
+    if not cfg then return false end
+    local remoteParent = ReplicatedStorage:FindFirstChild(cfg.remoteFolder)
+    local remote = remoteParent and remoteParent:FindFirstChild(cfg.remoteName)
+    if not remote then return false end
+    pcall(function()
+        local args = table.pack(cfg.buildArgs(cfg.id, difficulty))
+        remote:FireServer(table.unpack(args, 1, args.n))
+    end)
+    return true, cfg.npcMatch
+end
+
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- RUNTIME STATE
+-- ═══════════════════════════════════════════════════════════════════════════════
+local CurrentTween       = nil
+local ActiveBodyVelocity = nil
+local ActiveBodyGyro     = nil
+local CurrentQuest       = nil
+local ForceQuestRefresh  = false
+local LastHitTime        = 0
+local _instantHookActive = false
+
+local StatusLabel        = nil
+local LevelLabel         = nil
+local MobStatusLabel     = nil
+local BossStatusLabel    = nil
+local PityLabel          = nil
+local DungeonStatusLabel = nil
+
+local MobsList    = {}
+local BossesList  = {}
+local WeaponsList = {}
+local PityBossList = {}
+
+local BuyerNPCList   = {}
+local MasteryNPCList = {}
+local OtherNPCList   = {}
+
+local ArmDebounce = false
+local ObsDebounce = false
+local DungArmDebounce = false
+local DungObsDebounce = false
+
+local PityFarmDropdownRef = nil
+local PityKillDropdownRef = nil
+
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- CHARACTER HELPER
+-- ═══════════════════════════════════════════════════════════════════════════════
+local function GetCharacter()
+    local char = LocalPlayer.Character
+    if char and char:FindFirstChild("HumanoidRootPart")
+        and char:FindFirstChild("Humanoid")
+        and char.Humanoid.Health > 0
+    then return char end
+    return nil
+end
+
+LocalPlayer.CharacterAdded:Connect(function()
+    ActiveBodyVelocity = nil
+    ActiveBodyGyro     = nil
+    CurrentTween       = nil
+end)
+
+local VIM = game:GetService("VirtualInputManager")
+local ProximityPromptService = game:GetService("ProximityPromptService")
+
+local function FireNearbyPrompts(position, radius)
+    radius = radius or 15
+    for _, prompt in ipairs(ProximityPromptService:GetPrompts()) do
+        local part = prompt.Parent
+        if part and part:IsA("BasePart") then
+            if (part.Position - position).Magnitude <= radius then
+                pcall(function() fireproximityprompt(prompt) end)
+            end
+        end
+    end
+end
+
+local function SpamCollect(position, radius, duration)
+    radius   = radius   or 25
+    duration = duration or 1.5
+    local endTime = tick() + duration
+    while tick() < endTime do
+        pcall(function() FireNearbyPrompts(position, radius) end)
+        pcall(function()
+            VIM:SendKeyEvent(true,  Enum.KeyCode.E, false, game)
+            task.wait(0.05)
+            VIM:SendKeyEvent(false, Enum.KeyCode.E, false, game)
+        end)
+        task.wait(0.1)
+    end
+end
+
+ProximityPromptService.PromptButtonHoldBegan:Connect(function(prompt)
+    if _instantHookActive then
+        pcall(function() fireproximityprompt(prompt) end)
+    end
+end)
+
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- TWEEN / LOCK / UNLOCK
+-- ═══════════════════════════════════════════════════════════════════════════════
+local function TweenTo(targetCFrame)
+    local char = GetCharacter()
+    if not char then return 0 end
+    if CurrentTween then CurrentTween:Cancel() end
+    local RootPart = char.HumanoidRootPart
+    local Distance = (RootPart.Position - targetCFrame.Position).Magnitude
+    local Time     = Distance / Settings.Tween_Speed
+    local TI = TweenInfo.new(Time, Enum.EasingStyle.Linear)
+    CurrentTween = TweenService:Create(RootPart, TI, {CFrame = targetCFrame})
+    CurrentTween:Play()
+    local bVel = Instance.new("BodyVelocity")
+    bVel.Name = "TweenFloat" bVel.MaxForce = Vector3.new(0, 100000, 0)
+    bVel.Velocity = Vector3.zero bVel.Parent = RootPart
+    task.spawn(function()
+        while CurrentTween and CurrentTween.PlaybackState == Enum.PlaybackState.Playing do
+            if not GetCharacter() then if CurrentTween then CurrentTween:Cancel() end break end
+            RunService.Stepped:Wait()
+        end
+        if bVel and bVel.Parent then bVel:Destroy() end
+    end)
+    return Time
+end
+
+local function LockPosition(targetCFrame)
+    local char = GetCharacter()
+    if not char or not char.PrimaryPart then return end
+    if not ActiveBodyVelocity or ActiveBodyVelocity.Parent ~= char.PrimaryPart then
+        if ActiveBodyVelocity then ActiveBodyVelocity:Destroy() end
+        ActiveBodyVelocity = Instance.new("BodyVelocity")
+        ActiveBodyVelocity.Name = "AutoLevel_Hold"
+        ActiveBodyVelocity.MaxForce = Vector3.new(9e9, 9e9, 9e9)
+        ActiveBodyVelocity.Velocity = Vector3.zero
+        ActiveBodyVelocity.Parent = char.PrimaryPart
+    end
+    if not ActiveBodyGyro or ActiveBodyGyro.Parent ~= char.PrimaryPart then
+        if ActiveBodyGyro then ActiveBodyGyro:Destroy() end
+        ActiveBodyGyro = Instance.new("BodyGyro")
+        ActiveBodyGyro.Name = "AutoLevel_Look"
+        ActiveBodyGyro.MaxTorque = Vector3.new(9e9, 9e9, 9e9)
+        ActiveBodyGyro.P = 30000 ActiveBodyGyro.D = 100
+        ActiveBodyGyro.Parent = char.PrimaryPart
+    end
+    char.PrimaryPart.CFrame = targetCFrame
+    ActiveBodyGyro.CFrame = targetCFrame
+    ActiveBodyVelocity.Velocity = Vector3.zero
+end
+
+local function UnlockPosition()
+    if ActiveBodyVelocity then ActiveBodyVelocity:Destroy() ActiveBodyVelocity = nil end
+    if ActiveBodyGyro     then ActiveBodyGyro:Destroy()     ActiveBodyGyro     = nil end
+end
+
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- POSITION OFFSET
+-- ═══════════════════════════════════════════════════════════════════════════════
+local function GetOffsetFromPart(targetPart, posOverride, distOverride)
+    local pos  = targetPart.Position
+    local dist = distOverride or Settings.Farm_Distance
+    local mode = posOverride  or Settings.Farm_Position
+    if mode == "Above"  then return pos + Vector3.new(0,  dist, 0) end
+    if mode == "Below"  then return pos + Vector3.new(0, -dist, 0) end
+    if mode == "Behind" then
+        local cf = targetPart.CFrame or CFrame.new(pos)
+        return pos + (-cf.LookVector * dist)
+    end
+    return pos + Vector3.new(0, dist, 0)
+end
+
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- MISC HELPERS
+-- ═══════════════════════════════════════════════════════════════════════════════
+local function GetLevel()
+    local ok, val = pcall(function() return LocalPlayer.Data.Level.Value end)
+    return ok and tonumber(val) or 0
+end
+
+local function GetQuestForLevel(level)
+    for i = #QUESTS, 1, -1 do
+        if level >= QUESTS[i].minLvl then return QUESTS[i] end
+    end
+    return QUESTS[1]
+end
+
+local function GetModelCFrame(model)
+    if not model then return nil end
+    local hrp = model:FindFirstChild("HumanoidRootPart")
+    if hrp then return hrp.CFrame end
+    if model.PrimaryPart then return model.PrimaryPart.CFrame end
+    local part = model:FindFirstChildWhichIsA("BasePart", true)
+    if part then return part.CFrame end
+    local ok, cf = pcall(function() return model:GetPivot() end)
+    if ok then return cf end
+    return nil
+end
+
+local function GetQuestNPCInstance(quest)
+    local obj = Workspace
+    for _, name in ipairs(quest.npcPath) do
+        obj = obj:FindFirstChild(name)
+        if not obj then return nil end
+    end
+    return obj
+end
+
+local function FindTarget(quest)
+    local folder = Workspace:FindFirstChild("NPCs")
+    if not folder then return nil end
+    local char = GetCharacter()
+    if not char then return nil end
+    local myPos = char.HumanoidRootPart.Position
+    local closest, closestDist = nil, math.huge
+    for _, name in ipairs(quest.targets) do
+        local npc = folder:FindFirstChild(name)
+        if npc then
+            local h = npc:FindFirstChildOfClass("Humanoid")
+            if h and h.Health > 0 then
+                local cf = GetModelCFrame(npc)
+                if cf then
+                    local d = (cf.Position - myPos).Magnitude
+                    if d < closestDist then closest = npc closestDist = d end
+                end
+            end
+        end
+    end
+    return closest
+end
+
+local function FindManualTarget(baseName)
+    local folder = Workspace:FindFirstChild("NPCs")
+    if not folder then return nil end
+    local char = GetCharacter()
+    if not char then return nil end
+    local myPos = char.HumanoidRootPart.Position
+    local cleanTarget = baseName:gsub("[%d%s]",""):lower()
+    local closest, closestDist = nil, math.huge
+    for _, npc in ipairs(folder:GetChildren()) do
+        if npc:IsA("Model") then
+            local h = npc:FindFirstChildOfClass("Humanoid")
+            if h and h.Health > 0 then
+                local cleanName = npc.Name:gsub("[%d%s]",""):lower()
+                if cleanName:find(cleanTarget, 1, true) then
+                    local cf = GetModelCFrame(npc)
+                    if cf then
+                        local d = (cf.Position - myPos).Magnitude
+                        if d < closestDist then closest = npc closestDist = d end
+                    end
+                end
+            end
+        end
+    end
+    return closest
+end
+
+local function FindManualTargetMulti(nameList)
+    local folder = Workspace:FindFirstChild("NPCs")
+    if not folder then return nil end
+    local char = GetCharacter()
+    if not char then return nil end
+    local myPos = char.HumanoidRootPart.Position
+    local closest, closestDist = nil, math.huge
+    for _, baseName in ipairs(nameList) do
+        local cleanTarget = baseName:gsub("[%d%s]",""):lower()
+        for _, npc in ipairs(folder:GetChildren()) do
+            if npc:IsA("Model") then
+                local h = npc:FindFirstChildOfClass("Humanoid")
+                if h and h.Health > 0 then
+                    local cleanName = npc.Name:gsub("[%d%s]",""):lower()
+                    if cleanName:find(cleanTarget, 1, true) then
+                        local cf = GetModelCFrame(npc)
+                        if cf then
+                            local d = (cf.Position - myPos).Magnitude
+                            if d < closestDist then closest = npc closestDist = d end
+                        end
+                    end
+                end
+            end
+        end
+    end
+    return closest
+end
+
+local function GetAllAliveTargets(nameList)
+    local folder = Workspace:FindFirstChild("NPCs")
+    if not folder then return {} end
+    local result = {}
+    if nameList and #nameList > 0 then
+        for _, baseName in ipairs(nameList) do
+            local cleanTarget = baseName:gsub("[%d%s]",""):lower()
+            for _, npc in ipairs(folder:GetChildren()) do
+                if npc:IsA("Model") then
+                    local h = npc:FindFirstChildOfClass("Humanoid")
+                    if h and h.Health > 0 then
+                        local cleanName = npc.Name:gsub("[%d%s]",""):lower()
+                        if cleanName:find(cleanTarget, 1, true) then
+                            if not table.find(result, npc) then
+                                table.insert(result, npc)
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    else
+        for _, npc in ipairs(folder:GetChildren()) do
+            if npc:IsA("Model") then
+                local h = npc:FindFirstChildOfClass("Humanoid")
+                if h and h.Health > 0 then
+                    table.insert(result, npc)
+                end
+            end
+        end
+    end
+    return result
+end
+
+local function FindAnyDungeonTarget()
+    local folder = Workspace:FindFirstChild("NPCs")
+    if not folder then return nil end
+    local char = GetCharacter()
+    if not char then return nil end
+    local myPos = char.HumanoidRootPart.Position
+    local closest, closestDist = nil, math.huge
+    for _, npc in ipairs(folder:GetChildren()) do
+        if npc:IsA("Model") then
+            local h = npc:FindFirstChildOfClass("Humanoid")
+            if h and h.Health > 0 then
+                local cf = GetModelCFrame(npc)
+                if cf then
+                    local d = (cf.Position - myPos).Magnitude
+                    if d < closestDist then closest = npc closestDist = d end
+                end
+            end
+        end
+    end
+    return closest
+end
+
+local SUMMON_NPC_MATCH_NAMES = {}
+for _, cfg in ipairs(SUMMON_BOSS_CONFIG) do
+    SUMMON_NPC_MATCH_NAMES[cfg.npcMatch] = true
+end
+
+local QUEST_BOSS_NAMES = {
+    "ThiefBoss","MonkeyBoss","DesertBoss","SnowBoss","PandaMiniBoss"
+}
+
+local function RebuildPityBossList()
+    PityBossList = {}
+    for _, name in ipairs(BossesList) do
+        table.insert(PityBossList, name)
+    end
+    for _, label in ipairs(SUMMON_BOSS_LABELS) do
+        if not table.find(PityBossList, label) then
+            table.insert(PityBossList, label)
+        end
+    end
+end
+
+local function RefreshNPCs()
+    MobsList   = {}
+    BossesList = {}
+    local folder = Workspace:FindFirstChild("NPCs")
+    if folder then
+        for _, npc in ipairs(folder:GetChildren()) do
+            if npc:IsA("Model") and npc:FindFirstChildOfClass("Humanoid") then
+                local base = npc.Name:gsub("%d+$",""):match("^%s*(.-)%s*$") or npc.Name
+                if not table.find(MobsList, base) then table.insert(MobsList, base) end
+                local isQuestBoss   = table.find(QUEST_BOSS_NAMES, base) ~= nil
+                local isSummonAlias = SUMMON_NPC_MATCH_NAMES[base] == true
+                if base:lower():find("boss") and not isQuestBoss and not isSummonAlias then
+                    if not table.find(BossesList, base) then table.insert(BossesList, base) end
+                end
+            end
+        end
+        table.sort(MobsList)
+        table.sort(BossesList)
+    end
+    RebuildPityBossList()
+    if PityFarmDropdownRef then
+        pcall(function() PityFarmDropdownRef:SetOptions(PityBossList) end)
+    end
+    if PityKillDropdownRef then
+        pcall(function() PityKillDropdownRef:SetOptions(PityBossList) end)
+    end
+end
+
+local function RefreshWeapons()
+    WeaponsList = {}
+    local function scan(c)
+        for _, t in ipairs(c:GetChildren()) do
+            if t:IsA("Tool") and not table.find(WeaponsList, t.Name) then
+                table.insert(WeaponsList, t.Name)
+            end
+        end
+    end
+    if LocalPlayer.Character then scan(LocalPlayer.Character) end
+    if LocalPlayer.Backpack   then scan(LocalPlayer.Backpack)  end
+    table.sort(WeaponsList)
+end
+
+local function RefreshServiceNPCs()
+    BuyerNPCList   = {}
+    MasteryNPCList = {}
+    OtherNPCList   = {}
+    local folder = Workspace:FindFirstChild("ServiceNPCs")
+    if not folder then return end
+    for _, npc in ipairs(folder:GetChildren()) do
+        local lname = npc.Name:lower()
+        if lname:find("buy") or lname:find("buyer") then
+            table.insert(BuyerNPCList, npc.Name)
+        elseif lname:find("mastery") then
+            table.insert(MasteryNPCList, npc.Name)
+        elseif not lname:find("quest") then
+            table.insert(OtherNPCList, npc.Name)
+        end
+    end
+    table.sort(BuyerNPCList)
+    table.sort(MasteryNPCList)
+    table.sort(OtherNPCList)
+end
+
+RefreshNPCs()
+RefreshWeapons()
+RefreshServiceNPCs()
+
+local function SetStatus(text)
+    if StatusLabel then pcall(function() StatusLabel:Set({ Name = "Status: " .. text }) end) end
+end
+
+local function SetDungeonStatus(text)
+    if DungeonStatusLabel then pcall(function() DungeonStatusLabel:Set({ Name = "Status: " .. text }) end) end
+end
+
+local function GetPityText()
+    local ok, val = pcall(function()
+        return LocalPlayer.PlayerGui.BossUI.MainFrame.BossHPBar.Pity.Text
+    end)
+    if ok and val then return val end
+    local ok2, val2 = pcall(function()
+        return tostring(LocalPlayer.PlayerGui.BossUI.MainFrame.BossHPBar.Pity.Value)
+    end)
+    if ok2 and val2 then return val2 end
+    return "?"
+end
+
+local function GetPityNumber()
+    local txt = GetPityText()
+    local n = txt:match("%d+")
+    return n and tonumber(n) or 0
+end
+
+local function IsDungeonReplayVisible()
+    local ok, vis = pcall(function()
+        return LocalPlayer.PlayerGui.DungeonUI.ReplayDungeonFrameVisibleOnlyWhenClearingDungeon.Visible
+    end)
+    return ok and vis == true
+end
+
+-- ─── Fixed: checks actual difficulty frame visibility ────────────────────────
+local function IsDungeonVoteVisible()
+    local ok, vis = pcall(function()
+        local actions = LocalPlayer.PlayerGui.DungeonUI.ContentFrame.Actions
+        return actions.EasyDifficultyFrame.Visible
+            or actions.MediumDifficultyFrame.Visible
+            or actions.HardDifficultyFrame.Visible
+            or actions.ExtremeDifficultyFrame.Visible
+    end)
+    return ok and vis == true
+end
+
+-- ─── Fixed: only fires the remote, no VIM clicking ───────────────────────────
+local function VoteDungeonDifficulty(diff)
+    pcall(function()
+        ReplicatedStorage:WaitForChild("Remotes"):WaitForChild("DungeonWaveVote"):FireServer(diff)
+    end)
+end
+
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- QUEST UI HELPERS
+-- ═══════════════════════════════════════════════════════════════════════════════
+local function IsQuestUIVisible()
+    local ok, visible = pcall(function()
+        return LocalPlayer.PlayerGui.QuestUI.Quest.Visible
+    end)
+    return ok and visible == true
+end
+
+local function GetCurrentQuestTitle()
+    if not IsQuestUIVisible() then return "" end
+    local ok, title = pcall(function()
+        return LocalPlayer.PlayerGui.QuestUI.Quest.Quest.Holder.Content.QuestInfo.QuestTitle.QuestTitle.Text
+    end)
+    if ok and type(title) == "string" then return title:match("^%s*(.-)%s*$") end
+    return ""
+end
+
+local function IsCorrectQuestActive(quest)
+    return IsQuestUIVisible() and GetCurrentQuestTitle() == quest.questTitle
+end
+
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- AUTO LEVEL LOOP
+-- ═══════════════════════════════════════════════════════════════════════════════
+local function AutoLevelLoop()
+    CurrentQuest      = nil
+    ForceQuestRefresh = true
+    while Settings.AutoLevel do
+        local level = GetLevel()
+        if level >= 10000 then
+            SetStatus("MAX LEVEL REACHED! 🎉")
+            Settings.AutoLevel = false
+            break
+        end
+        local quest = GetQuestForLevel(level)
+        local needAccept = ForceQuestRefresh or not IsCorrectQuestActive(quest)
+        if needAccept then
+            UnlockPosition()
+            ForceQuestRefresh = false
+            if IsQuestUIVisible() then
+                QuestAbandon:FireServer("repeatable")
+                task.wait(0.4)
+            end
+            if not Settings.AutoLevel then break end
+            SetStatus("Going to " .. quest.questTitle .. "...")
+            local questNPC = GetQuestNPCInstance(quest)
+            if questNPC then
+                local npcCF = GetModelCFrame(questNPC)
+                if npcCF then
+                    local t = TweenTo(CFrame.new(npcCF.Position + Vector3.new(0, 3, 0)))
+                    task.wait(t + 0.3)
+                else
+                    SetStatus("Cant read CFrame for " .. quest.id .. "!") task.wait(1)
+                end
+            else
+                SetStatus("Quest NPC not found: " .. quest.id .. "!") task.wait(1)
+            end
+            if not Settings.AutoLevel then break end
+            QuestAccept:FireServer(quest.id)
+            SetStatus("Accepting " .. quest.questTitle .. "...")
+            local deadline = tick() + 3
+            repeat
+                task.wait(0.1)
+                if not Settings.AutoLevel then break end
+            until IsCorrectQuestActive(quest) or tick() > deadline
+            if not Settings.AutoLevel then break end
+            if not IsCorrectQuestActive(quest) then
+                SetStatus("Accept failed, retrying...") task.wait(0.5) continue
+            end
+            CurrentQuest = quest
+            SetStatus("Quest active: " .. quest.questTitle .. " | Lvl " .. level)
+            task.wait(0.2)
+        end
+        local target = FindTarget(quest)
+        if target then
+            local targetCF = GetModelCFrame(target)
+            if targetCF then
+                local targetPos = targetCF.Position
+                local goalPos   = GetOffsetFromPart({ Position = targetPos, CFrame = targetCF })
+                local char      = GetCharacter()
+                if char then
+                    if (char.HumanoidRootPart.Position - goalPos).Magnitude > 10 then
+                        UnlockPosition()
+                        local t = TweenTo(CFrame.new(goalPos))
+                        if t > 0 then task.wait(t) end
+                    end
+                    if not Settings.AutoLevel then break end
+                    if CurrentTween then CurrentTween:Cancel() end
+                    LockPosition(CFrame.new(goalPos, targetPos))
+                    local now = tick()
+                    if now - LastHitTime >= HIT_INTERVAL then
+                        HitRemote:FireServer()
+                        LastHitTime = now
+                        SetStatus("Farming " .. target.Name .. " | Lvl " .. level)
+                    end
+                end
+            end
+        else
+            UnlockPosition()
+            SetStatus("Waiting for spawn... | Lvl " .. level)
+            task.wait(0.5)
+        end
+        RunService.Heartbeat:Wait()
+    end
+    UnlockPosition()
+    if CurrentTween then CurrentTween:Cancel() end
+    CurrentQuest = nil ForceQuestRefresh = false
+    SetStatus("Idle")
+end
+
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- MANUAL FARM LOOP
+-- ═══════════════════════════════════════════════════════════════════════════════
+local function ManualFarmLoop(isBoss)
+    local statusLbl = isBoss and BossStatusLabel or MobStatusLabel
+    while (isBoss and Settings.AutoFarmBoss) or (not isBoss and Settings.AutoFarmMob) do
+        local folder = Workspace:FindFirstChild("NPCs")
+        local char   = GetCharacter()
+        local target = nil
+        if folder and char then
+            local myPos = char.HumanoidRootPart.Position
+            local closestDist = math.huge
+            for _, npc in ipairs(folder:GetChildren()) do
+                local h = npc:FindFirstChildOfClass("Humanoid")
+                if h and h.Health > 0 then
+                    local cf = GetModelCFrame(npc)
+                    if cf then
+                        local d = (cf.Position - myPos).Magnitude
+                        if d < closestDist then target = npc closestDist = d end
+                    end
+                end
+            end
+        end
+        if target then
+            local targetCF = GetModelCFrame(target)
+            if targetCF then
+                local targetPos = targetCF.Position
+                local goalPos   = GetOffsetFromPart({ Position = targetPos, CFrame = targetCF })
+                if char then
+                    if (char.HumanoidRootPart.Position - goalPos).Magnitude > 10 then
+                        UnlockPosition()
+                        local t = TweenTo(CFrame.new(goalPos))
+                        if t > 0 then task.wait(t) end
+                    end
+                    if (isBoss and not Settings.AutoFarmBoss) or (not isBoss and not Settings.AutoFarmMob) then break end
+                    if CurrentTween then CurrentTween:Cancel() end
+                    LockPosition(CFrame.new(goalPos, targetPos))
+                    local now = tick()
+                    if now - LastHitTime >= HIT_INTERVAL then
+                        HitRemote:FireServer()
+                        LastHitTime = now
+                        if statusLbl then pcall(function() statusLbl:Set({ Name = "Status: Farming " .. target.Name }) end) end
+                    end
+                end
+            end
+        else
+            UnlockPosition()
+            if statusLbl then pcall(function() statusLbl:Set({ Name = "Status: Waiting for spawn..." }) end) end
+            task.wait(0.5)
+        end
+        RunService.Heartbeat:Wait()
+    end
+    UnlockPosition()
+    if CurrentTween then CurrentTween:Cancel() end
+    if statusLbl then pcall(function() statusLbl:Set({ Name = "Status: Idle" }) end) end
+end
+
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- AUTO PITY FARM LOOP
+-- ═══════════════════════════════════════════════════════════════════════════════
+local function AutoPityLoop()
+    local bossIndex        = 1
+    local killSummoned     = false
+    local inKillPhase      = false
+    local farmSummoned     = false
+    local currentFarmLabel = nil
+
+    while Settings.AutoFarmPity do
+        local bossList = Settings.PityFarmBossList
+        if not bossList or #bossList == 0 then
+            if PityLabel then pcall(function() PityLabel:Set({ Name = "Pity: Select a boss first" }) end) end
+            task.wait(1) continue
+        end
+
+        local pity = GetPityNumber()
+
+        if pity >= 24 and not inKillPhase then
+            inKillPhase    = true
+            killSummoned   = false
+            farmSummoned   = false
+            UnlockPosition()
+        elseif pity < 24 and inKillPhase then
+            inKillPhase      = false
+            killSummoned     = false
+            farmSummoned     = false
+            currentFarmLabel = nil
+            bossIndex        = 1
+        end
+
+        if PityLabel then pcall(function()
+            local phase = inKillPhase and " | KILL PHASE" or (" [" .. bossIndex .. "/" .. #bossList .. "]")
+            PityLabel:Set({ Name = "Pity: " .. GetPityText() .. phase })
+        end) end
+
+        if inKillPhase then
+            local killLabel = Settings.PityKillBoss
+            if not killLabel or killLabel == "" then
+                if PityLabel then pcall(function()
+                    PityLabel:Set({ Name = "Pity: " .. GetPityText() .. " | KILL PHASE — no kill boss set!" })
+                end) end
+                task.wait(1) RunService.Heartbeat:Wait() continue
+            end
+
+            local killCfg       = GetSummonConfigByLabel(killLabel)
+            local npcSearchName = killCfg and killCfg.npcMatch or killLabel
+
+            if killCfg and not killSummoned then
+                if PityLabel then pcall(function()
+                    PityLabel:Set({ Name = "Pity: " .. GetPityText() .. " | Summoning " .. killLabel .. " (" .. Settings.PityDifficulty .. ")..." })
+                end) end
+                local ok = SummonBossByLabel(killLabel, Settings.PityDifficulty)
+                if ok then killSummoned = true task.wait(2) end
+            end
+
+            if not Settings.AutoFarmPity then break end
+
+            local target = FindManualTarget(npcSearchName)
+            if target then
+                local targetCF = GetModelCFrame(target)
+                if targetCF then
+                    local targetPos = targetCF.Position
+                    local goalPos   = GetOffsetFromPart({ Position = targetPos, CFrame = targetCF })
+                    local char = GetCharacter()
+                    if char then
+                        if (char.HumanoidRootPart.Position - goalPos).Magnitude > 10 then
+                            UnlockPosition()
+                            local t = TweenTo(CFrame.new(goalPos))
+                            if t > 0 then task.wait(t) end
+                        end
+                        if not Settings.AutoFarmPity then break end
+                        if CurrentTween then CurrentTween:Cancel() end
+                        LockPosition(CFrame.new(goalPos, targetPos))
+                        local now = tick()
+                        if now - LastHitTime >= HIT_INTERVAL then
+                            HitRemote:FireServer() LastHitTime = now
+                        end
+                    end
+                end
+            else
+                UnlockPosition()
+                if PityLabel then pcall(function()
+                    PityLabel:Set({ Name = "Pity: " .. GetPityText() .. " | Waiting for " .. killLabel .. "..." })
+                end) end
+                if killCfg and killSummoned then killSummoned = false end
+                task.wait(0.5)
+            end
+
+            RunService.Heartbeat:Wait()
+            continue
+        end
+
+        local killLabel = Settings.PityKillBoss or ""
+        local filteredList = {}
+        for _, name in ipairs(bossList) do
+            if name ~= killLabel then table.insert(filteredList, name) end
+        end
+
+        if #filteredList == 0 then
+            if PityLabel then pcall(function()
+                PityLabel:Set({ Name = "Pity: " .. GetPityText() .. " | Waiting for pity 24..." })
+            end) end
+            task.wait(1) RunService.Heartbeat:Wait() continue
+        end
+
+        if bossIndex > #filteredList then bossIndex = 1 end
+
+        local targetLabel = filteredList[bossIndex]
+        if currentFarmLabel ~= targetLabel then
+            currentFarmLabel = targetLabel
+            farmSummoned     = false
+        end
+
+        local farmCfg       = GetSummonConfigByLabel(targetLabel)
+        local npcSearchName = farmCfg and farmCfg.npcMatch or targetLabel
+
+        if farmCfg and not farmSummoned then
+            if PityLabel then pcall(function()
+                PityLabel:Set({ Name = "Pity: " .. GetPityText() .. " | Summoning " .. targetLabel .. "..." })
+            end) end
+            local ok = SummonBossByLabel(targetLabel, Settings.PityDifficulty)
+            if ok then farmSummoned = true task.wait(2) end
+        end
+
+        if not Settings.AutoFarmPity then break end
+
+        local target = FindManualTarget(npcSearchName)
+        if target then
+            local targetCF = GetModelCFrame(target)
+            if targetCF then
+                local targetPos = targetCF.Position
+                local goalPos   = GetOffsetFromPart({ Position = targetPos, CFrame = targetCF })
+                local char = GetCharacter()
+                if char then
+                    if (char.HumanoidRootPart.Position - goalPos).Magnitude > 10 then
+                        UnlockPosition()
+                        local t = TweenTo(CFrame.new(goalPos))
+                        if t > 0 then task.wait(t) end
+                    end
+                    if not Settings.AutoFarmPity then break end
+                    if CurrentTween then CurrentTween:Cancel() end
+                    LockPosition(CFrame.new(goalPos, targetPos))
+                    local now = tick()
+                    if now - LastHitTime >= HIT_INTERVAL then
+                        HitRemote:FireServer() LastHitTime = now
+                        if PityLabel then pcall(function()
+                            PityLabel:Set({ Name = "Pity: " .. GetPityText() .. " | " .. target.Name .. " [" .. bossIndex .. "/" .. #filteredList .. "]" })
+                        end) end
+                    end
+                end
+            end
+        else
+            UnlockPosition()
+            farmSummoned = false
+            if #filteredList > 1 then
+                bossIndex        = (bossIndex % #filteredList) + 1
+                currentFarmLabel = filteredList[bossIndex]
+                if PityLabel then pcall(function()
+                    PityLabel:Set({ Name = "Pity: " .. GetPityText() .. " | Boss dead → next: " .. filteredList[bossIndex] })
+                end) end
+            else
+                if farmCfg then
+                    if PityLabel then pcall(function()
+                        PityLabel:Set({ Name = "Pity: " .. GetPityText() .. " | Boss dead → re-summoning..." })
+                    end) end
+                else
+                    if PityLabel then pcall(function()
+                        PityLabel:Set({ Name = "Pity: " .. GetPityText() .. " | Waiting respawn..." })
+                    end) end
+                    task.wait(0.5)
+                end
+            end
+        end
+
+        RunService.Heartbeat:Wait()
+    end
+
+    UnlockPosition()
+    if CurrentTween then CurrentTween:Cancel() end
+    if PityLabel then pcall(function() PityLabel:Set({ Name = "Pity: Idle" }) end) end
+end
+
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- AUTO SUMMON BOSS LOOP
+-- ═══════════════════════════════════════════════════════════════════════════════
+local function GetSummonBossConfig()
+    for _, cfg in ipairs(SUMMON_BOSS_CONFIG) do
+        if cfg.label == Settings.SummonBossName then return cfg end
+    end
+    return SUMMON_BOSS_CONFIG[1]
+end
+
+local function AutoSummonBossLoop()
+    while Settings.AutoSummonBoss do
+        local cfg = GetSummonBossConfig()
+        local remoteParent = ReplicatedStorage:FindFirstChild(cfg.remoteFolder)
+        local remote = remoteParent and remoteParent:FindFirstChild(cfg.remoteName)
+        if not remote then task.wait(1) continue end
+        pcall(function()
+            local args = table.pack(cfg.buildArgs(cfg.id, Settings.SummonDifficulty))
+            remote:FireServer(table.unpack(args, 1, args.n))
+        end)
+        task.wait(2)
+        if not Settings.AutoSummonBoss then break end
+        local waitStart = tick()
+        while Settings.AutoSummonBoss do
+            local target = FindManualTarget(cfg.npcMatch)
+            if not target then
+                if tick() - waitStart > 5 then break end
+                UnlockPosition() task.wait(0.3) continue
+            end
+            waitStart = tick()
+            local targetCF = GetModelCFrame(target)
+            if targetCF then
+                local targetPos = targetCF.Position
+                local goalPos   = GetOffsetFromPart({ Position = targetPos, CFrame = targetCF })
+                local char = GetCharacter()
+                if char then
+                    if (char.HumanoidRootPart.Position - goalPos).Magnitude > 10 then
+                        UnlockPosition()
+                        local t = TweenTo(CFrame.new(goalPos))
+                        if t > 0 then task.wait(t) end
+                    end
+                    if not Settings.AutoSummonBoss then break end
+                    if CurrentTween then CurrentTween:Cancel() end
+                    LockPosition(CFrame.new(goalPos, targetPos))
+                    local now = tick()
+                    if now - LastHitTime >= HIT_INTERVAL then
+                        HitRemote:FireServer() LastHitTime = now
+                    end
+                end
+            end
+            RunService.Heartbeat:Wait()
+        end
+    end
+    UnlockPosition()
+    if CurrentTween then CurrentTween:Cancel() end
+end
+
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- AUTO JOIN DUNGEON LOOP
+-- ═══════════════════════════════════════════════════════════════════════════════
+local function AutoJoinDungeonLoop()
+    local DungeonPortalRemote = ReplicatedStorage:WaitForChild("Remotes"):WaitForChild("RequestDungeonPortal")
+    while Settings.AutoJoinDungeon do
+        local arg = Settings.SelectedDungeon or "CidDungeon"
+        pcall(function()
+            DungeonPortalRemote:FireServer(arg)
+        end)
+        task.wait(2)
+    end
+end
+
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- DUNGEON FARM LOOP — fixed Auto Vote + Auto Replay
+-- ═══════════════════════════════════════════════════════════════════════════════
+local function DungeonFarmLoop()
+    -- Auto Vote: only fires when difficulty frames are actually visible
+    task.spawn(function()
+        while Settings.DungeonAutoFarm do
+            if Settings.DungeonAutoVote and IsDungeonVoteVisible() then
+                VoteDungeonDifficulty(Settings.DungeonDifficulty)
+                SetDungeonStatus("Voted " .. Settings.DungeonDifficulty)
+                task.wait(3) -- cooldown after voting to avoid spam
+            else
+                task.wait(1)
+            end
+        end
+    end)
+
+    -- Auto Replay: only fires DungeonWaveReplayVote remote when replay frame is visible
+    task.spawn(function()
+        local ReplayRemote = ReplicatedStorage:WaitForChild("Remotes"):WaitForChild("DungeonWaveReplayVote")
+        while Settings.DungeonAutoFarm do
+            if Settings.DungeonAutoReplay and IsDungeonReplayVisible() then
+                pcall(function()
+                    ReplayRemote:FireServer("sponsor")
+                end)
+                SetDungeonStatus("Replaying dungeon...")
+                task.wait(3) -- cooldown after firing to avoid duplicate requests
+            else
+                task.wait(1)
+            end
+        end
+    end)
+
+    -- Main farm loop
+    while Settings.DungeonAutoFarm do
+        local folder = Workspace:FindFirstChild("NPCs")
+        local char   = GetCharacter()
+        local target = nil
+        if folder and char then
+            local myPos = char.HumanoidRootPart.Position
+            local closestDist = math.huge
+            for _, npc in ipairs(folder:GetChildren()) do
+                local h = npc:FindFirstChildOfClass("Humanoid")
+                if h and h.Health > 0 then
+                    local cf = GetModelCFrame(npc)
+                    if cf then
+                        local d = (cf.Position - myPos).Magnitude
+                        if d < closestDist then target = npc closestDist = d end
+                    end
+                end
+            end
+        end
+
+        if target then
+            local targetCF = GetModelCFrame(target)
+            if targetCF then
+                local targetPos = targetCF.Position
+                local goalPos   = GetOffsetFromPart(
+                    { Position = targetPos, CFrame = targetCF },
+                    Settings.DungeonFarmPosition,
+                    Settings.DungeonFarmDistance
+                )
+                if char then
+                    if (char.HumanoidRootPart.Position - goalPos).Magnitude > 10 then
+                        UnlockPosition()
+                        local t = TweenTo(CFrame.new(goalPos))
+                        if t > 0 then task.wait(t) end
+                    end
+                    if not Settings.DungeonAutoFarm then break end
+                    if CurrentTween then CurrentTween:Cancel() end
+                    LockPosition(CFrame.new(goalPos, targetPos))
+                    local now = tick()
+                    if now - LastHitTime >= HIT_INTERVAL then
+                        HitRemote:FireServer()
+                        LastHitTime = now
+                        SetDungeonStatus("Farming " .. target.Name)
+                    end
+                end
+            end
+        else
+            UnlockPosition()
+            SetDungeonStatus("Waiting for mobs...")
+            task.wait(0.5)
+        end
+        RunService.Heartbeat:Wait()
+    end
+    UnlockPosition()
+    if CurrentTween then CurrentTween:Cancel() end
+    SetDungeonStatus("Idle")
+end
+
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- AUTO CRAFT LOOPS
+-- ═══════════════════════════════════════════════════════════════════════════════
+local function AutoCraftGrailLoop()
+    local GrailRemote = ReplicatedStorage:WaitForChild("Remotes"):WaitForChild("RequestGrailCraft")
+    while Settings.AutoCraftGrail do
+        pcall(function() GrailRemote:InvokeServer("DivineGrail", 1) end)
+        task.wait(0.5)
+    end
+end
+
+local function AutoCraftSlimeLoop()
+    local SlimeRemote = ReplicatedStorage:WaitForChild("Remotes"):WaitForChild("RequestSlimeCraft")
+    while Settings.AutoCraftSlime do
+        pcall(function() SlimeRemote:InvokeServer("SlimeKey", 1) end)
+        task.wait(0.5)
+    end
+end
+
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- AUTO UNLOCK SLIME
+-- ═══════════════════════════════════════════════════════════════════════════════
+local function AutoUnlockSlimeLoop()
+    _instantHookActive = true
+    local svcFolder = Workspace:FindFirstChild("ServiceNPCs")
+    local slimeNPC  = svcFolder and svcFolder:FindFirstChild("SlimeCraftNPC")
+    if slimeNPC then
+        local npcCF = GetModelCFrame(slimeNPC)
+        if npcCF then
+            local char = GetCharacter()
+            if char then
+                char.HumanoidRootPart.CFrame = CFrame.new(npcCF.Position + Vector3.new(0, 3, 0))
+                task.wait(0.5)
+            end
+            if not Settings.AutoUnlockSlime then _instantHookActive = false return end
+            SpamCollect(npcCF.Position, 15, 1.5)
+        end
+    else
+        Starlight:Notification({ Title = "Unlock Slime", Content = "SlimeCraftNPC not found in ServiceNPCs.", Duration = 3 }, "SlimeNPCMiss")
+        Settings.AutoUnlockSlime = false _instantHookActive = false return
+    end
+    if not Settings.AutoUnlockSlime then _instantHookActive = false return end
+    local deadline = tick() + 8
+    repeat task.wait(0.2) until GetCurrentQuestTitle() == "Slime Collection" or tick() > deadline
+    if GetCurrentQuestTitle() ~= "Slime Collection" then
+        Starlight:Notification({ Title = "Unlock Slime", Content = "Quest accept failed — try again.", Duration = 3 }, "SlimeQFail")
+        Settings.AutoUnlockSlime = false _instantHookActive = false return
+    end
+    Starlight:Notification({ Title = "Unlock Slime", Content = "Quest detected! Collecting all 7 key locations...", Duration = 3 }, "SlimeStarted")
+    for i, wp in ipairs(SLIME_KEY_WAYPOINTS) do
+        if not Settings.AutoUnlockSlime then break end
+        local char = GetCharacter()
+        if char then
+            char.HumanoidRootPart.CFrame = CFrame.new(wp + Vector3.new(0, 3, 0))
+            task.wait(0.5)
+        end
+        if not Settings.AutoUnlockSlime then break end
+        SpamCollect(wp, 25, 1.5)
+        Starlight:Notification({ Title = "Slime Key " .. i .. " / 7", Content = "Collected ✓", Duration = 1.2 }, "SlimeKey" .. i)
+    end
+    _instantHookActive = false
+    Settings.AutoUnlockSlime = false
+    Starlight:Notification({ Title = "Unlock Slime", Content = "All 7 key locations visited! 🎉", Duration = 4 }, "SlimeQDone")
+end
+
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- AUTO UNLOCK DUNGEON
+-- ═══════════════════════════════════════════════════════════════════════════════
+local function IsQuestHolderVisible()
+    local ok, visible = pcall(function()
+        return LocalPlayer.PlayerGui.QuestUI.Quest.Quest.Holder.Visible
+    end)
+    return ok and visible == true
+end
+
+local function GetDungeonQuestTitle()
+    local ok, title = pcall(function()
+        return LocalPlayer.PlayerGui.QuestUI.Quest.Quest.Holder.Content.QuestInfo.QuestTitle.QuestTitle.Text
+    end)
+    if ok and type(title) == "string" then return title:match("^%s*(.-)%s*$") end
+    return ""
+end
+
+local function GetQuestRequirement()
+    local ok, text = pcall(function()
+        return LocalPlayer.PlayerGui.QuestUI.Quest.Quest.Holder.Content.QuestInfo.QuestRequirement.Text
+    end)
+    if ok and type(text) == "string" then
+        local cur, req = text:match("(%d+)/(%d+)")
+        if cur and req then return tonumber(cur), tonumber(req) end
+    end
+    return 0, 25
+end
+
+local function AutoUnlockDungeonLoop()
+    _instantHookActive = true
+    local currentTitle = GetDungeonQuestTitle()
+    local skipToPhase2 = IsQuestHolderVisible() and currentTitle == "Prove Your Strength"
+    local skipToPhase1 = IsQuestHolderVisible() and currentTitle == "Dungeon Discovery"
+
+    if not skipToPhase2 then
+        if not skipToPhase1 then
+            Starlight:Notification({ Title = "Unlock Dungeon — Phase 1", Content = "Waiting for Dungeon Discovery quest... Accept it first!", Duration = 4 }, "DungeonWait")
+            local deadline = tick() + 30
+            repeat
+                task.wait(0.3)
+                if not Settings.AutoUnlockDungeon then _instantHookActive = false return end
+                currentTitle = GetDungeonQuestTitle()
+            until (IsQuestHolderVisible() and (currentTitle == "Dungeon Discovery" or currentTitle == "Prove Your Strength")) or tick() > deadline
+            currentTitle = GetDungeonQuestTitle()
+            if currentTitle == "Prove Your Strength" then
+                skipToPhase2 = true
+            elseif currentTitle ~= "Dungeon Discovery" then
+                Starlight:Notification({ Title = "Unlock Dungeon", Content = "No dungeon quest detected. Accept Dungeon Discovery first.", Duration = 5 }, "DungeonNoQuest")
+                Settings.AutoUnlockDungeon = false _instantHookActive = false return
+            end
+        end
+
+        if not skipToPhase2 then
+            Starlight:Notification({ Title = "Unlock Dungeon — Phase 1", Content = "Collecting all 6 dungeon pieces...", Duration = 3 }, "DungeonStarted")
+            for i, wp in ipairs(DUNGEON_PIECE_WAYPOINTS) do
+                if not Settings.AutoUnlockDungeon then break end
+                local char = GetCharacter()
+                if char then
+                    char.HumanoidRootPart.CFrame = CFrame.new(wp + Vector3.new(0, 3, 0))
+                    task.wait(0.5)
+                end
+                if not Settings.AutoUnlockDungeon then break end
+                SpamCollect(wp, 25, 1.5)
+                Starlight:Notification({ Title = "Dungeon Piece " .. i .. " / 6", Content = "Collected ✓", Duration = 1.2 }, "DungeonPiece" .. i)
+            end
+            if not Settings.AutoUnlockDungeon then _instantHookActive = false return end
+            Starlight:Notification({ Title = "Unlock Dungeon — Phase 2", Content = "Waiting for Prove Your Strength quest...", Duration = 4 }, "DungeonPhase2Wait")
+            local deadline2 = tick() + 15
+            repeat
+                task.wait(0.3)
+                if not Settings.AutoUnlockDungeon then _instantHookActive = false return end
+            until (IsQuestHolderVisible() and GetDungeonQuestTitle() == "Prove Your Strength") or tick() > deadline2
+            if GetDungeonQuestTitle() ~= "Prove Your Strength" then
+                Starlight:Notification({ Title = "Unlock Dungeon", Content = "Phase 2 quest didn't appear.\nAccept Prove Your Strength then re-toggle.", Duration = 5 }, "DungeonNoPhase2")
+                Settings.AutoUnlockDungeon = false _instantHookActive = false return
+            end
+        end
+    end
+
+    if #BossesList == 0 then RefreshNPCs() end
+    if #BossesList == 0 then
+        Starlight:Notification({ Title = "Unlock Dungeon — Phase 2", Content = "No bosses found. Refresh NPC list first.", Duration = 5 }, "DungeonNoBoss")
+        Settings.AutoUnlockDungeon = false _instantHookActive = false return
+    end
+
+    local cur, req = GetQuestRequirement()
+    Starlight:Notification({ Title = "Unlock Dungeon — Phase 2", Content = "Cycling all " .. #BossesList .. " bosses\nProgress: " .. cur .. "/" .. req, Duration = 4 }, "DungeonFarmStart")
+
+    local bossIndex = 1
+    while Settings.AutoUnlockDungeon do
+        cur, req = GetQuestRequirement()
+        if cur >= req then break end
+        local bossName = BossesList[bossIndex]
+        SetStatus("Dungeon P2: " .. cur .. "/" .. req .. " | " .. bossName)
+        local target = FindManualTarget(bossName)
+        if target then
+            local targetCF = GetModelCFrame(target)
+            if targetCF then
+                local targetPos = targetCF.Position
+                local goalPos   = GetOffsetFromPart({ Position = targetPos, CFrame = targetCF })
+                local char = GetCharacter()
+                if char then
+                    if (char.HumanoidRootPart.Position - goalPos).Magnitude > 10 then
+                        UnlockPosition()
+                        local t = TweenTo(CFrame.new(goalPos))
+                        if t > 0 then task.wait(t) end
+                    end
+                    if not Settings.AutoUnlockDungeon then break end
+                    if CurrentTween then CurrentTween:Cancel() end
+                    LockPosition(CFrame.new(goalPos, targetPos))
+                    local now = tick()
+                    if now - LastHitTime >= HIT_INTERVAL then
+                        HitRemote:FireServer()
+                        LastHitTime = now
+                    end
+                end
+            end
+        else
+            UnlockPosition()
+            bossIndex = (bossIndex % #BossesList) + 1
+            task.wait(0.2)
+        end
+        RunService.Heartbeat:Wait()
+    end
+
+    UnlockPosition()
+    if CurrentTween then CurrentTween:Cancel() end
+    _instantHookActive = false
+    Settings.AutoUnlockDungeon = false
+    SetStatus("Idle")
+    Starlight:Notification({ Title = "Unlock Dungeon — DONE! 🎉", Content = "25 bosses killed! Dungeon portals unlocked.", Duration = 6 }, "DungeonFullDone")
+end
+
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- SKILL LOOPS
+-- ═══════════════════════════════════════════════════════════════════════════════
+local KEY_TO_SLOT = { Z=1, X=2, C=3, V=4, F=5 }
+
+local function AutoSkillLoop()
+    local FruitRemote = ReplicatedStorage:WaitForChild("RemoteEvents"):WaitForChild("FruitPowerRemote")
+    while Settings.AutoSkill do
+        local keys = Settings.SelectedSkills
+        if keys and #keys > 0 then
+            for _, k in ipairs(keys) do
+                local slot = KEY_TO_SLOT[k]
+                if slot then pcall(function() AbilityRemote:FireServer(slot) end) end
+                local kc = Enum.KeyCode[k]
+                if kc then
+                    pcall(function()
+                        FruitRemote:FireServer("UseAbility", { FruitPower = DetectedFruitPower, KeyCode = kc })
+                    end)
+                end
+                task.wait(Settings.SkillInterval)
+                if not Settings.AutoSkill then break end
+            end
+        else
+            task.wait(0.2)
+        end
+    end
+end
+
+local function DungeonSkillLoop()
+    local FruitRemote = ReplicatedStorage:WaitForChild("RemoteEvents"):WaitForChild("FruitPowerRemote")
+    while Settings.DungeonAutoSkill do
+        local keys = Settings.SelectedSkills
+        if keys and #keys > 0 then
+            for _, k in ipairs(keys) do
+                local slot = KEY_TO_SLOT[k]
+                if slot then pcall(function() AbilityRemote:FireServer(slot) end) end
+                local kc = Enum.KeyCode[k]
+                if kc then
+                    pcall(function()
+                        FruitRemote:FireServer("UseAbility", { FruitPower = DetectedFruitPower, KeyCode = kc })
+                    end)
+                end
+                task.wait(Settings.SkillInterval)
+                if not Settings.DungeonAutoSkill then break end
+            end
+        else
+            task.wait(0.2)
+        end
+    end
+end
+
+local function AutoAttackLoop()
+    while Settings.AutoAttack do
+        HitRemote:FireServer()
+        RunService.Heartbeat:Wait()
+    end
+end
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- BACKGROUND LOOPS
+-- ═══════════════════════════════════════════════════════════════════════════════
+task.spawn(function()
+    while true do
+        task.wait(1)
+        pcall(function()
+            if LevelLabel then LevelLabel:Set({ Name = "Level: " .. tostring(GetLevel()) }) end
+        end)
+        pcall(function()
+            if PityLabel and not Settings.AutoFarmPity then
+                PityLabel:Set({ Name = "Pity: " .. GetPityText() })
+            end
+        end)
+    end
+end)
+
+task.spawn(function()
+    while true do
+        task.wait(0.5)
+        pcall(function()
+            if Settings.AutoStats then
+                local stats = (#Settings.SelectedStats > 0) and Settings.SelectedStats or { Settings.SelectedStat }
+                for _, stat in ipairs(stats) do
+                    FireRemote("AllocateStat", stat, Settings.StatAmount)
+                end
+            end
+            if Settings.AutoArmament and not ArmDebounce then
+                local char = LocalPlayer.Character
+                if char and char:FindFirstChild("Left Arm") then
+                    if char["Left Arm"].BrickColor.Name ~= "Really black" then
+                        ArmDebounce = true
+                        FireRemote("HakiRemote", "Toggle")
+                        task.delay(1.5, function() ArmDebounce = false end)
+                    end
+                end
+            end
+            if Settings.AutoObs and not ObsDebounce then
+                local pGui = LocalPlayer:FindFirstChild("PlayerGui")
+                if pGui then
+                    local dodgeUI = pGui:FindFirstChild("DodgeCounterUI")
+                    if dodgeUI and dodgeUI:FindFirstChild("MainFrame") and not dodgeUI.MainFrame.Visible then
+                        ObsDebounce = true
+                        FireRemote("ObservationHakiRemote", "Toggle")
+                        task.delay(1.5, function() ObsDebounce = false end)
+                    end
+                end
+            end
+            if Settings.AutoConq then FireRemote("ConquerorHakiRemote", "Toggle") end
+
+            if IS_IN_DUNGEON then
+                if Settings.DungeonAutoArmament and not DungArmDebounce then
+                    local char = LocalPlayer.Character
+                    if char and char:FindFirstChild("Left Arm") then
+                        if char["Left Arm"].BrickColor.Name ~= "Really black" then
+                            DungArmDebounce = true
+                            FireRemote("HakiRemote", "Toggle")
+                            task.delay(1.5, function() DungArmDebounce = false end)
+                        end
+                    end
+                end
+                if Settings.DungeonAutoObs and not DungObsDebounce then
+                    local pGui = LocalPlayer:FindFirstChild("PlayerGui")
+                    if pGui then
+                        local dodgeUI = pGui:FindFirstChild("DodgeCounterUI")
+                        if dodgeUI and dodgeUI:FindFirstChild("MainFrame") and not dodgeUI.MainFrame.Visible then
+                            DungObsDebounce = true
+                            FireRemote("ObservationHakiRemote", "Toggle")
+                            task.delay(1.5, function() DungObsDebounce = false end)
+                        end
+                    end
+                end
+                if Settings.DungeonAutoConq then FireRemote("ConquerorHakiRemote", "Toggle") end
+            end
+        end)
+    end
+end)
+
+task.spawn(function()
+    while true do
+        task.wait(0.1)
+        pcall(function()
+            if Settings.AutoEquip and #Settings.SelectedWeapons > 0 then
+                local char = LocalPlayer.Character
+                if not char then return end
+                for _, wName in ipairs(Settings.SelectedWeapons) do
+                    local equipped = false
+                    for _, t in ipairs(char:GetChildren()) do
+                        if t:IsA("Tool") and t.Name == wName then equipped = true break end
+                    end
+                    if not equipped and LocalPlayer.Backpack then
+                        local tool = LocalPlayer.Backpack:FindFirstChild(wName)
+                        if tool and char:FindFirstChild("Humanoid") then
+                            char.Humanoid:EquipTool(tool) break
+                        end
+                    end
+                end
+            end
+            if IS_IN_DUNGEON and Settings.DungeonAutoEquip and #Settings.DungeonSelectedWeapons > 0 then
+                local char = LocalPlayer.Character
+                if not char then return end
+                for _, wName in ipairs(Settings.DungeonSelectedWeapons) do
+                    local equipped = false
+                    for _, t in ipairs(char:GetChildren()) do
+                        if t:IsA("Tool") and t.Name == wName then equipped = true break end
+                    end
+                    if not equipped and LocalPlayer.Backpack then
+                        local tool = LocalPlayer.Backpack:FindFirstChild(wName)
+                        if tool and char:FindFirstChild("Humanoid") then
+                            char.Humanoid:EquipTool(tool) break
+                        end
+                    end
+                end
+            end
+        end)
+    end
+end)
+
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- STOP ALL
+-- ═══════════════════════════════════════════════════════════════════════════════
+local function StopAll()
+    Settings.AutoLevel          = false
+    Settings.AutoFarmMob        = false
+    Settings.AutoFarmBoss       = false
+    Settings.AutoFarmPity       = false
+    Settings.AutoSummonBoss     = false
+    Settings.AutoCraftGrail     = false
+    Settings.AutoCraftSlime     = false
+    Settings.AutoAttack         = false
+    Settings.AutoSkill          = false
+    Settings.AutoUnlockSlime    = false
+    Settings.AutoUnlockDungeon  = false
+    Settings.AutoJoinDungeon    = false
+    Settings.DungeonAutoFarm    = false
+    Settings.DungeonAutoSkill   = false
+    _instantHookActive          = false
+    UnlockPosition()
+    if CurrentTween then CurrentTween:Cancel() end
+    SetStatus("Stopped")
+end
+
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- UI BUILD
+-- ═══════════════════════════════════════════════════════════════════════════════
+local Window = Starlight:CreateWindow({
+    Name     = "CrazyHub",
+    Subtitle = "Game: Sailor Piece | Developer: Crazy",
+    Icon     = NebulaIcons:GetIcon("sword", "Lucide"),
+    LoadingSettings = { Title = "CrazyHub", Subtitle = "Loading..." },
+    FileSettings    = { ConfigFolder = "CrazyHub_SailorPiece" }
+})
+
+Window:CreateHomeTab({
+    SupportedExecutors = {"Synapse Z", "Scriptware", "Krnl", "Delta", "Fluxus", "Hydrogen", "Wave"},
+    UnsupportedExecutors = {},
+    DiscordInvite = "tjeCGgdC7j", Backdrop = 0, IconStyle = 1,
+    Changelog = {{
+        Title = "", Date = "Latest",
+        Description = ""
+    }}
+})
+
+if IS_IN_DUNGEON then
+    -- ─────────────────────────────────────────────────────────────────────────
+    -- DUNGEON-ONLY TABS
+    -- ─────────────────────────────────────────────────────────────────────────
+    local DungeonSection = Window:CreateTabSection("Dungeon")
+
+    local DungeonTab = DungeonSection:CreateTab({
+        Name = "Dungeon", Icon = NebulaIcons:GetIcon("sword","Lucide"), Columns = 2
+    }, "DungeonTab")
+
+    local DungFarmBox = DungeonTab:CreateGroupbox({ Name = "Dungeon Farm", Column = 1 }, "DungFarmBox")
+    DungeonStatusLabel = DungFarmBox:CreateLabel({ Name = "Status: Idle" }, "DungeonStatusLbl")
+
+    DungFarmBox:CreateToggle({
+        Name = "Auto Farm Mobs", CurrentValue = false, Style = 2,
+        Tooltip = "Teleports to and attacks EVERY alive NPC in the NPCs folder, cycling through all.",
+        Callback = function(val)
+            Settings.DungeonAutoFarm = val
+            if val then task.spawn(DungeonFarmLoop) end
+        end,
+    }, "DungeonAutoFarmToggle")
+
+    DungFarmBox:CreateDivider()
+
+    DungFarmBox:CreateLabel({ Name = "Farm Position" }, "DungFarmPosLbl"):AddDropdown({
+        Options = {"Above","Below","Behind"}, CurrentOption = {"Above"}, Placeholder = "Above", MultipleOptions = false,
+        Callback = function(opts)
+            Settings.DungeonFarmPosition = (type(opts)=="table" and opts[1]) or opts or "Above"
+        end,
+    }, "DungFarmPosDrop")
+
+    DungFarmBox:CreateSlider({
+        Name = "Farm Distance", Range = {1,20}, Increment = 1, CurrentValue = 6, Suffix = " Studs",
+        Callback = function(val) Settings.DungeonFarmDistance = val end,
+    }, "DungFarmDistSlider")
+
+    DungFarmBox:CreateSlider({
+        Name = "Tween Speed", Range = {16,500}, Increment = 1, CurrentValue = 50, Suffix = " Speed",
+        Callback = function(val) Settings.Tween_Speed = val end,
+    }, "DungTweenSpeedSlider")
+
+    -- Col 1 – Difficulty vote + replay
+    local DungVoteBox = DungeonTab:CreateGroupbox({ Name = "Difficulty & Replay", Column = 1 }, "DungVoteBox")
+
+    DungVoteBox:CreateLabel({ Name = "Vote Difficulty" }, "DungDiffLbl"):AddDropdown({
+        Options = DUNGEON_DIFFICULTIES, CurrentOption = {"Easy"}, Placeholder = "Easy", MultipleOptions = false,
+        Callback = function(opts)
+            Settings.DungeonDifficulty = (type(opts)=="table" and opts[1]) or opts or "Easy"
+        end,
+    }, "DungDiffDropdown")
+
+    DungVoteBox:CreateToggle({
+        Name = "Auto Vote Difficulty", CurrentValue = false, Style = 2,
+        Tooltip = "Fires vote remote only when difficulty frames are visible.",
+        Callback = function(val) Settings.DungeonAutoVote = val end,
+    }, "DungAutoVoteToggle")
+
+    DungVoteBox:CreateButton({
+        Name = "Vote Now", Icon = NebulaIcons:GetIcon("check","Lucide"),
+        Callback = function() VoteDungeonDifficulty(Settings.DungeonDifficulty) end,
+    }, "DungVoteNowBtn")
+
+    DungVoteBox:CreateDivider()
+
+    DungVoteBox:CreateToggle({
+        Name = "Auto Replay", CurrentValue = false, Style = 2,
+        Tooltip = "Fires DungeonWaveReplayVote remote only when replay frame is visible.",
+        Callback = function(val) Settings.DungeonAutoReplay = val end,
+    }, "DungAutoReplayToggle")
+
+    -- Col 2 – Auto Skill
+    local DungSkillBox = DungeonTab:CreateGroupbox({ Name = "Auto Skills", Column = 2 }, "DungSkillBox")
+
+    DungSkillBox:CreateLabel({ Name = "Select Keys" }, "DungSkillInfoLbl"):AddDropdown({
+        Options = {"Z","X","C","V","F"},
+        CurrentOption = {"Z","X","C","V","F"}, MultipleOptions = true, Placeholder = "None",
+        Callback = function(opts)
+            Settings.SelectedSkills = type(opts) == "table" and opts or {opts}
+        end,
+    }, "DungSkillKeysDropdown")
+
+    DungSkillBox:CreateSlider({
+        Name = "Skill Interval", Range = {0.05,5}, Increment = 0.05, CurrentValue = 0.5, Suffix = " s",
+        Callback = function(val) Settings.SkillInterval = val end,
+    }, "DungSkillIntervalSlider")
+
+    DungSkillBox:CreateToggle({
+        Name = "Auto Skill", CurrentValue = false, Style = 2,
+        Callback = function(val)
+            Settings.DungeonAutoSkill = val
+            if val then task.spawn(DungeonSkillLoop) end
+        end,
+    }, "DungAutoSkillToggle")
+
+    -- Col 2 – Auto Equip
+    local DungWeaponBox = DungeonTab:CreateGroupbox({ Name = "Auto Equip Weapon", Column = 2 }, "DungWeaponBox")
+
+    DungWeaponBox:CreateLabel({ Name = "Select Weapon(s)" }, "DungWeaponLbl"):AddDropdown({
+        Options = WeaponsList, CurrentOption = {}, Placeholder = "None Selected", MultipleOptions = true,
+        Callback = function(opts)
+            Settings.DungeonSelectedWeapons = type(opts)=="table" and opts or {opts}
+        end,
+    }, "DungWeaponDropdown")
+
+    DungWeaponBox:CreateToggle({
+        Name = "Auto Equip", CurrentValue = false, Style = 2,
+        Callback = function(val) Settings.DungeonAutoEquip = val end,
+    }, "DungAutoEquipToggle")
+
+    DungWeaponBox:CreateButton({
+        Name = "Refresh Weapons", Icon = NebulaIcons:GetIcon("refresh-cw","Lucide"),
+        Callback = function()
+            RefreshWeapons()
+            Starlight:Notification({ Title = "Weapons", Content = #WeaponsList .. " weapon(s) found.", Duration = 3 }, "DungWeaponsRefreshed")
+        end,
+    }, "DungRefreshWeaponsBtn")
+
+    -- Col 2 – Haki
+    local DungHakiBox = DungeonTab:CreateGroupbox({ Name = "Auto Haki", Column = 2 }, "DungHakiBox")
+    DungHakiBox:CreateToggle({ Name = "Auto Armament Haki",    CurrentValue = false, Style = 2, Callback = function(val) Settings.DungeonAutoArmament = val end }, "DungArmamentToggle")
+    DungHakiBox:CreateToggle({ Name = "Auto Observation Haki", CurrentValue = false, Style = 2, Callback = function(val) Settings.DungeonAutoObs = val end }, "DungObsToggle")
+    DungHakiBox:CreateToggle({ Name = "Auto Conqueror Haki",   CurrentValue = false, Style = 2, Callback = function(val) Settings.DungeonAutoConq = val end }, "DungConqToggle")
+
+    local ConfigSectionD = Window:CreateTabSection("Config")
+    local ConfigTabD = ConfigSectionD:CreateTab({ Name = "Config", Icon = NebulaIcons:GetIcon("settings","Lucide"), Columns = 1 }, "ConfigTab")
+    ConfigTabD:BuildConfigGroupbox(1)
+
+    Starlight:Notification({
+        Title   = "Dungeon Mode",
+        Content = "Dungeon-only tabs loaded for Place ID " .. tostring(CURRENT_PLACE_ID),
+        Icon    = NebulaIcons:GetIcon("sword","Lucide"),
+        Duration = 4
+    }, "DungeonTabLoaded")
+
+else
+    -- ─────────────────────────────────────────────────────────────────────────
+    -- MAIN GAME TABS
+    -- ─────────────────────────────────────────────────────────────────────────
+    local FarmSection   = Window:CreateTabSection("Farming")
+    local BossSection   = Window:CreateTabSection("Boss Farm")
+    local CombatSection = Window:CreateTabSection("Combat")
+    local MiscSection   = Window:CreateTabSection("MISC")
+    local ConfigSection = Window:CreateTabSection("Config")
+
+    -- ─── TAB: AUTO LEVEL ─────────────────────────────────────────────────────
+    local AutoLevelTab = FarmSection:CreateTab({
+        Name = "Auto Level", Icon = NebulaIcons:GetIcon("trending-up","Lucide"), Columns = 2
+    }, "AutoLevelTab")
+
+    local ControlBox = AutoLevelTab:CreateGroupbox({ Name = "Auto Level", Column = 1 }, "ControlBox")
+    StatusLabel = ControlBox:CreateLabel({ Name = "Status: Idle" }, "StatusLbl")
+    LevelLabel  = ControlBox:CreateLabel({ Name = "Level: --" }, "LevelLbl")
+
+    ControlBox:CreateToggle({
+        Name = "Auto Level", CurrentValue = false, Style = 2, Tooltip = "",
+        Callback = function(val)
+            Settings.AutoLevel = val ForceQuestRefresh = val
+            if val then task.spawn(AutoLevelLoop) end
+        end,
+    }, "AutoLevelToggle")
+
+    local MobBox = AutoLevelTab:CreateGroupbox({ Name = "Farm Mobs", Column = 1 }, "MobBox")
+    MobStatusLabel = MobBox:CreateLabel({ Name = "Status: Idle" }, "MobStatusLbl")
+
+    MobBox:CreateLabel({ Name = "Select Mob(s)" }, "MobSelectLbl"):AddDropdown({
+        Options = MobsList, CurrentOption = {}, Placeholder = "None Selected", MultipleOptions = true,
+        Callback = function(opts)
+            Settings.SelectedMob = type(opts) == "table" and opts or { opts }
+        end,
+    }, "MobDropdown")
+
+    MobBox:CreateToggle({
+        Name = "Auto Farm Mob", CurrentValue = false, Style = 2,
+        Tooltip = "Teleports to and attacks each selected mob, cycling through all alive ones.",
+        Callback = function(val)
+            Settings.AutoFarmMob = val
+            if val then task.spawn(function() ManualFarmLoop(false) end) end
+        end,
+    }, "AutoFarmMobToggle")
+
+    MobBox:CreateButton({
+        Name = "Refresh Lists", Icon = NebulaIcons:GetIcon("refresh-cw","Lucide"),
+        Callback = function() RefreshNPCs() end,
+    }, "RefreshMobBtn")
+
+    -- Position & Distance (Col 2)
+    local PosBox = AutoLevelTab:CreateGroupbox({ Name = "Position & Distance", Column = 2 }, "PosBox")
+
+    PosBox:CreateLabel({ Name = "Farm Position" }, "FarmPosLbl"):AddDropdown({
+        Options = {"Above","Below","Behind"}, CurrentOption = {"Above"}, Placeholder = "Above",
+        MultipleOptions = false,
+        Callback = function(opts)
+            Settings.Farm_Position = (type(opts)=="table" and opts[1]) or opts or "Above"
+        end,
+    }, "FarmPosDrop")
+
+    PosBox:CreateSlider({
+        Name = "Farm Distance", Range = {1,15}, Increment = 1, CurrentValue = 6, Suffix = " Studs",
+        Callback = function(val) Settings.Farm_Distance = val end,
+    }, "FarmDistSlider")
+
+    PosBox:CreateSlider({
+        Name = "Tween Speed", Range = {16,500}, Increment = 1, CurrentValue = 50, Suffix = " Speed",
+        Callback = function(val) Settings.Tween_Speed = val end,
+    }, "TweenSpeed")
+
+    PosBox:CreateDivider()
+
+    -- Auto Join Dungeon (Col 2)
+    local JoinDungeonBox = AutoLevelTab:CreateGroupbox({ Name = "Auto Join Dungeon", Column = 2 }, "JoinDungeonBox")
+
+    JoinDungeonBox:CreateLabel({ Name = "Select Dungeon" }, "JoinDungeonLbl"):AddDropdown({
+        Options = DUNGEON_LABELS, CurrentOption = {"Cid Dungeon"}, Placeholder = "Cid Dungeon",
+        MultipleOptions = false,
+        Callback = function(opts)
+            local label = (type(opts)=="table" and opts[1]) or opts or "Cid Dungeon"
+            for _, d in ipairs(DUNGEON_OPTIONS) do
+                if d.label == label then Settings.SelectedDungeon = d.arg break end
+            end
+        end,
+    }, "JoinDungeonDropdown")
+
+    JoinDungeonBox:CreateToggle({
+        Name = "Auto Join Dungeon", CurrentValue = false, Style = 2,
+        Tooltip = "Repeatedly fires RequestDungeonPortal until teleported in.",
+        Callback = function(val)
+            Settings.AutoJoinDungeon = val
+            if val then task.spawn(AutoJoinDungeonLoop) end
+        end,
+    }, "AutoJoinDungeonToggle")
+
+    -- ─── TAB: BOSS FARM ───────────────────────────────────────────────────────
+    local BossFarmTab = BossSection:CreateTab({
+        Name = "Boss Farm", Icon = NebulaIcons:GetIcon("skull","Lucide"), Columns = 2
+    }, "BossFarmTab")
+
+    local PityBox = BossFarmTab:CreateGroupbox({ Name = "Pity Farm", Column = 1 }, "PityBox")
+    PityLabel = PityBox:CreateLabel({ Name = "Pity: --" }, "PityLbl")
+
+    PityFarmDropdownRef = PityBox:CreateLabel({ Name = "Pity Farm Bosses" }, "PityFarmLbl"):AddDropdown({
+        Options = PityBossList, CurrentOption = {}, Placeholder = "--", MultipleOptions = true,
+        Callback = function(opts)
+            Settings.PityFarmBossList = type(opts) == "table" and opts or { opts }
+            Settings.PityFarmBoss     = Settings.PityFarmBossList[1]
+        end,
+    }, "PityFarmDropdown")
+
+    PityKillDropdownRef = PityBox:CreateLabel({ Name = "25th Kill Boss" }, "PityKillLbl"):AddDropdown({
+        Options = PityBossList, CurrentOption = {}, Placeholder = "--", MultipleOptions = false,
+        Callback = function(opts)
+            Settings.PityKillBoss = (type(opts)=="table" and opts[1]) or opts
+        end,
+    }, "PityKillDropdown")
+
+    PityBox:CreateLabel({ Name = "Kill Boss Difficulty" }, "PityDiffLbl"):AddDropdown({
+        Options = SUMMON_DIFFICULTIES, CurrentOption = {"Normal"}, Placeholder = "Normal", MultipleOptions = false,
+        Callback = function(opts)
+            Settings.PityDifficulty = (type(opts)=="table" and opts[1]) or opts or "Normal"
+        end,
+    }, "PityDiffDropdown")
+
+    PityBox:CreateToggle({
+        Name = "Auto Pity Farm", CurrentValue = false, Style = 2,
+        Callback = function(val)
+            Settings.AutoFarmPity = val
+            if val then task.spawn(AutoPityLoop) end
+        end,
+    }, "AutoPityToggle")
+
+    PityBox:CreateButton({
+        Name = "Refresh Boss List", Icon = NebulaIcons:GetIcon("refresh-cw","Lucide"),
+        Callback = function()
+            RefreshNPCs()
+            Starlight:Notification({ Title = "Pity Farm", Content = #PityBossList .. " bosses in list.", Duration = 3 }, "PityRefresh")
+        end,
+    }, "PityRefreshBtn")
+
+    local WorldBossBox = BossFarmTab:CreateGroupbox({ Name = "World Boss Farm", Column = 1 }, "WorldBossBox")
+    BossStatusLabel = WorldBossBox:CreateLabel({ Name = "Status: Idle" }, "BossStatusLbl")
+
+    WorldBossBox:CreateLabel({ Name = "Select Boss" }, "BossSelectLbl"):AddDropdown({
+        Options = BossesList, CurrentOption = {}, Placeholder = "None Selected", MultipleOptions = true,
+        Callback = function(opts)
+            Settings.SelectedBoss = type(opts) == "table" and opts or { opts }
+        end,
+    }, "BossDropdown")
+
+    WorldBossBox:CreateToggle({
+        Name = "Auto Farm Boss", CurrentValue = false, Style = 2,
+        Tooltip = "Cycles through all selected bosses.",
+        Callback = function(val)
+            Settings.AutoFarmBoss = val
+            if val then task.spawn(function() ManualFarmLoop(true) end) end
+        end,
+    }, "AutoFarmBossToggle")
+
+    WorldBossBox:CreateButton({
+        Name = "Refresh Boss List", Icon = NebulaIcons:GetIcon("refresh-cw","Lucide"),
+        Callback = function() RefreshNPCs() end,
+    }, "RefreshBossBtn")
+
+    local SummonBox = BossFarmTab:CreateGroupbox({ Name = "Summonable Bosses", Column = 1 }, "SummonBox")
+
+    SummonBox:CreateLabel({ Name = "Select Boss" }, "SummonBossLbl"):AddDropdown({
+        Options = SUMMON_BOSS_LABELS, CurrentOption = {"Saber Boss"}, Placeholder = "Saber Boss", MultipleOptions = false,
+        Callback = function(opts)
+            Settings.SummonBossName = (type(opts)=="table" and opts[1]) or opts or "Saber Boss"
+        end,
+    }, "SummonBossDropdown")
+
+    SummonBox:CreateLabel({ Name = "Difficulty" }, "DiffLbl"):AddDropdown({
+        Options = SUMMON_DIFFICULTIES, CurrentOption = {"Normal"}, Placeholder = "Normal", MultipleOptions = false,
+        Callback = function(opts)
+            Settings.SummonDifficulty = (type(opts)=="table" and opts[1]) or opts or "Normal"
+        end,
+    }, "DiffDropdown")
+
+    SummonBox:CreateToggle({
+        Name = "Auto Farm", CurrentValue = false, Style = 2,
+        Callback = function(val)
+            Settings.AutoSummonBoss = val
+            if val then task.spawn(AutoSummonBossLoop) end
+        end,
+    }, "AutoSummonToggle")
+
+    local CraftBox = BossFarmTab:CreateGroupbox({ Name = "Auto Craft", Column = 2 }, "CraftBox")
+
+    CraftBox:CreateToggle({
+        Name = "Auto Craft Divine Grail", CurrentValue = false, Style = 2,
+        Callback = function(val)
+            Settings.AutoCraftGrail = val
+            if val then task.spawn(AutoCraftGrailLoop) end
+        end,
+    }, "AutoCraftGrailToggle")
+
+    CraftBox:CreateDivider()
+
+    CraftBox:CreateToggle({
+        Name = "Auto Craft Slime Key", CurrentValue = false, Style = 2,
+        Callback = function(val)
+            Settings.AutoCraftSlime = val
+            if val then task.spawn(AutoCraftSlimeLoop) end
+        end,
+    }, "AutoCraftSlimeToggle")
+
+    -- ─── TAB: COMBAT ─────────────────────────────────────────────────────────
+    local CombatTab = CombatSection:CreateTab({
+        Name = "Combat", Icon = NebulaIcons:GetIcon("zap","Lucide"), Columns = 2
+    }, "CombatTab")
+
+    local AttackBox = CombatTab:CreateGroupbox({ Name = "Auto Attack", Column = 1 }, "AttackBox")
+    AttackBox:CreateToggle({
+        Name = "Auto Attack", CurrentValue = false, Style = 2,
+        Callback = function(val)
+            Settings.AutoAttack = val
+            if val then task.spawn(AutoAttackLoop) end
+        end,
+    }, "AutoAttackToggle")
+
+    AttackBox:CreateDivider()
+    local SkillBox = CombatTab:CreateGroupbox({ Name = "Auto Skills", Column = 1 }, "SkillBox")
+
+    SkillBox:CreateLabel({ Name = "Select Keys" }, "SkillInfoLbl"):AddDropdown({
+        Options = {"Z","X","C","V","F"},
+        CurrentOption = {"Z","X","C","V","F"}, MultipleOptions = true, Placeholder = "None",
+        Callback = function(opts)
+            Settings.SelectedSkills = type(opts) == "table" and opts or {opts}
+        end,
+    }, "SkillKeysDropdown")
+
+    SkillBox:CreateSlider({
+        Name = "Skill Interval", Range = {0.05,5}, Increment = 0.05, CurrentValue = 0.5, Suffix = " s",
+        Callback = function(val) Settings.SkillInterval = val end,
+    }, "SkillIntervalSlider")
+
+    SkillBox:CreateToggle({
+        Name = "Auto Skill", CurrentValue = false, Style = 2,
+        Callback = function(val)
+            Settings.AutoSkill = val
+            if val then task.spawn(AutoSkillLoop) end
+        end,
+    }, "AutoSkillToggle")
+
+    local WeaponBox = CombatTab:CreateGroupbox({ Name = "Auto Equip Weapon", Column = 2 }, "WeaponBox")
+
+    WeaponBox:CreateLabel({ Name = "Select Weapon(s)" }, "WeaponLbl"):AddDropdown({
+        Options = WeaponsList, CurrentOption = {}, Placeholder = "None Selected", MultipleOptions = true,
+        Callback = function(opts)
+            Settings.SelectedWeapons = type(opts) == "table" and opts or { opts }
+        end,
+    }, "WeaponDropdown")
+
+    WeaponBox:CreateToggle({
+        Name = "Auto Equip", CurrentValue = false, Style = 2,
+        Callback = function(val) Settings.AutoEquip = val end,
+    }, "AutoEquipToggle")
+
+    WeaponBox:CreateButton({
+        Name = "Refresh Weapons", Icon = NebulaIcons:GetIcon("refresh-cw","Lucide"),
+        Callback = function()
+            RefreshWeapons()
+            Starlight:Notification({ Title = "Weapons", Content = #WeaponsList .. " weapon(s) found.", Duration = 3 }, "WeaponsRefreshed")
+        end,
+    }, "RefreshWeaponsBtn")
+
+    local HakiBox = CombatTab:CreateGroupbox({ Name = "Auto Haki", Column = 2 }, "HakiBox")
+    HakiBox:CreateToggle({ Name = "Auto Armament Haki",    CurrentValue = false, Style = 2, Callback = function(val) Settings.AutoArmament = val end }, "ArmamentToggle")
+    HakiBox:CreateToggle({ Name = "Auto Observation Haki", CurrentValue = false, Style = 2, Callback = function(val) Settings.AutoObs = val end }, "ObsToggle")
+    HakiBox:CreateToggle({ Name = "Auto Conqueror Haki",   CurrentValue = false, Style = 2, Callback = function(val) Settings.AutoConq = val end }, "ConqToggle")
+
+    -- ─── TAB: MISC ────────────────────────────────────────────────────────────
+    local MiscTab = MiscSection:CreateTab({
+        Name = "MISC", Icon = NebulaIcons:GetIcon("settings-2","Lucide"), Columns = 2
+    }, "MiscTab")
+
+    local StatsBox = MiscTab:CreateGroupbox({ Name = "Auto Stats", Column = 1 }, "StatsBox")
+
+    StatsBox:CreateLabel({ Name = "Select Stat(s)" }, "StatLbl"):AddDropdown({
+        Options = {"Melee","Defense","Sword","Power"}, CurrentOption = {"Melee"},
+        MultipleOptions = true, Placeholder = "None",
+        Callback = function(opts)
+            Settings.SelectedStats = type(opts) == "table" and opts or { opts }
+            Settings.SelectedStat  = Settings.SelectedStats[1] or "Melee"
+        end,
+    }, "StatDropdown")
+
+    StatsBox:CreateToggle({
+        Name = "Auto Allocate Stats", CurrentValue = false, Style = 2,
+        Callback = function(val) Settings.AutoStats = val end,
+    }, "AutoStatsToggle")
+
+    StatsBox:CreateSlider({
+        Name = "Points Per Tick", Range = {1,1000}, Increment = 1, CurrentValue = 1, Suffix = " pts",
+        Callback = function(val) Settings.StatAmount = val end,
+    }, "StatAmountSlider")
+
+    local IslandBox = MiscTab:CreateGroupbox({ Name = "Teleport Islands", Column = 1 }, "IslandBox")
+    local selectedIsland = nil
+
+    IslandBox:CreateLabel({ Name = "Select Island" }, "IslandLbl"):AddDropdown({
+        Options = ISLANDS, CurrentOption = {}, Placeholder = "None Selected", MultipleOptions = false,
+        Callback = function(opts) selectedIsland = (type(opts)=="table" and opts[1]) or opts end,
+    }, "IslandDropdown")
+
+    IslandBox:CreateButton({
+        Name = "Teleport to Island", Icon = NebulaIcons:GetIcon("map-pin","Lucide"),
+        Callback = function()
+            if not selectedIsland then return end
+            local islandFolder = Workspace:FindFirstChild(selectedIsland)
+            if not islandFolder then
+                Starlight:Notification({ Title = "Teleport", Content = selectedIsland .. " not found", Duration = 2 }, "IslandTPFail")
+                return
+            end
+            local spawnPart = nil
+            for _, child in ipairs(islandFolder:GetChildren()) do
+                if child.Name:lower():find("spawnpointcrystal") then spawnPart = child break end
+            end
+            local char = GetCharacter()
+            if char and spawnPart then
+                local cf = GetModelCFrame(spawnPart) or CFrame.new(spawnPart.Position)
+                char.HumanoidRootPart.CFrame = cf + Vector3.new(0, 3, 0)
+            elseif char and islandFolder then
+                local cf = GetModelCFrame(islandFolder)
+                if cf then char.HumanoidRootPart.CFrame = cf + Vector3.new(0, 3, 0) end
+            end
+        end,
+    }, "IslandTPBtn")
+
+    local CodesBox = MiscTab:CreateGroupbox({ Name = "Redeem Codes", Column = 1 }, "CodesBox")
+
+local CODES = {
+    "25KCCU",
+    "UPD5",
+    "7.5KFOLLOWTY",
+    "10KFOLLOWTY",
+    "12.5KFOLLOWTY",
+    "ROGUE",
+}
+
+local CodeRemote = ReplicatedStorage:WaitForChild("RemoteEvents"):WaitForChild("CodeRedeem")
+
+CodesBox:CreateButton({
+    Name = "Redeem All Codes",
+    Icon = NebulaIcons:GetIcon("gift", "Lucide"),
+    Callback = function()
+        local redeemed = 0
+        for _, code in ipairs(CODES) do
+            pcall(function()
+                CodeRemote:InvokeServer(code)
+            end)
+            redeemed = redeemed + 1
+            task.wait(0.5) -- small delay between each to avoid rate limiting
+        end
+        Starlight:Notification({
+            Title   = "Codes Redeemed",
+            Content = "Attempted " .. redeemed .. " codes!",
+            Icon    = NebulaIcons:GetIcon("check", "Lucide"),
+            Duration = 4
+        }, "CodesRedeemed")
+    end,
+}, "RedeemAllCodesBtn")
+
+    local ServiceBox = MiscTab:CreateGroupbox({ Name = "Service NPCs Teleport", Column = 2 }, "ServiceBox")
+    local selectedServiceNPC = nil
+
+    ServiceBox:CreateLabel({ Name = "Buyer / Shop NPCs" }, "BuyerLbl"):AddDropdown({
+        Options = BuyerNPCList, CurrentOption = {}, Placeholder = "None", MultipleOptions = false,
+        Callback = function(opts) selectedServiceNPC = (type(opts)=="table" and opts[1]) or opts end,
+    }, "BuyerDropdown")
+
+    ServiceBox:CreateLabel({ Name = "Mastery NPCs" }, "MasteryLbl"):AddDropdown({
+        Options = MasteryNPCList, CurrentOption = {}, Placeholder = "None", MultipleOptions = false,
+        Callback = function(opts) selectedServiceNPC = (type(opts)=="table" and opts[1]) or opts end,
+    }, "MasteryDropdown")
+
+    ServiceBox:CreateLabel({ Name = "Other NPCs" }, "OtherLbl"):AddDropdown({
+        Options = OtherNPCList, CurrentOption = {}, Placeholder = "None", MultipleOptions = false,
+        Callback = function(opts) selectedServiceNPC = (type(opts)=="table" and opts[1]) or opts end,
+    }, "OtherDropdown")
+
+    ServiceBox:CreateButton({
+        Name = "Teleport to NPC", Icon = NebulaIcons:GetIcon("map-pin","Lucide"),
+        Callback = function()
+            if not selectedServiceNPC then return end
+            local folder = Workspace:FindFirstChild("ServiceNPCs")
+            if not folder then return end
+            local npc = folder:FindFirstChild(selectedServiceNPC)
+            if not npc then return end
+            local char = GetCharacter()
+            if not char then return end
+            local cf = GetModelCFrame(npc)
+            if cf then char.HumanoidRootPart.CFrame = cf + Vector3.new(0, 3, 0) end
+        end,
+    }, "ServiceTPBtn")
+
+    ServiceBox:CreateButton({
+        Name = "Refresh NPC Lists", Icon = NebulaIcons:GetIcon("refresh-cw","Lucide"),
+        Callback = function()
+            RefreshServiceNPCs()
+            Starlight:Notification({ Title = "Refreshed", Content = "Service NPC lists updated.", Duration = 2 }, "SvcRefresh")
+        end,
+    }, "RefreshServiceBtn")
+
+    local UnlockBox = MiscTab:CreateGroupbox({ Name = "Unlock Quests", Column = 2 }, "UnlockBox")
+    UnlockBox:CreateLabel({ Name = "Auto Unlock" }, "UnlockInfoLbl")
+    UnlockBox:CreateDivider()
+
+    UnlockBox:CreateToggle({
+        Name = "Unlock Slime Crafting", CurrentValue = false, Style = 2,
+        Callback = function(val)
+            Settings.AutoUnlockSlime = val
+            if val then task.spawn(AutoUnlockSlimeLoop) end
+        end,
+    }, "UnlockSlimeToggle")
+
+    UnlockBox:CreateDivider()
+
+    UnlockBox:CreateToggle({
+        Name = "Unlock Dungeon Portals", CurrentValue = false, Style = 2,
+        Tooltip = "Phase 1: collect 6 pieces. Phase 2: kill 25 bosses.",
+        Callback = function(val)
+            Settings.AutoUnlockDungeon = val
+            if val then task.spawn(AutoUnlockDungeonLoop) end
+        end,
+    }, "UnlockDungeonToggle")
+
+    -- ─── TAB: CONFIG ──────────────────────────────────────────────────────────
+    local ConfigTab = ConfigSection:CreateTab({
+        Name = "Config", Icon = NebulaIcons:GetIcon("settings","Lucide"), Columns = 1
+    }, "ConfigTab")
+    ConfigTab:BuildConfigGroupbox(1)
+
+end  -- end IS_IN_DUNGEON else block
+
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- FINAL SETUP
+-- ═══════════════════════════════════════════════════════════════════════════════
+Starlight:OnDestroy(function()
+    StopAll()
+    Settings.AutoEquip        = false
+    Settings.AutoStats        = false
+    Settings.AutoArmament     = false
+    Settings.AutoObs          = false
+    Settings.AutoConq         = false
+    Settings.AutoSkill        = false
+    Settings.DungeonAutoSkill = false
+    _instantHookActive        = false
+    UnlockPosition()
+    if CurrentTween then CurrentTween:Cancel() end
+end)
+
+Starlight:LoadAutoloadConfig()
+
+Starlight:Notification({
+    Title   = "CrazyHub",
+    Content = "Loaded! Join the Discord for support, updates, and more scripts.\nhttps://discord.gg/tjeCGgdC7j",
+    Icon    = NebulaIcons:GetIcon("check","Lucide"),
+    Duration = 4
+}, "LoadedNotif")
